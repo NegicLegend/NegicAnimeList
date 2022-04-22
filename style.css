@@ -595,7 +595,7 @@ body {
             transform: translate(-50%, -50%);
     text-shadow: 2px 5px 5px black;
     z-index: 99;
-    width: 90%;
+    max-width: 90%;
 }
 
 .anime-wrapper:hover .anime-img {
