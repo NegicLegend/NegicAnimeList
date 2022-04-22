@@ -14,7 +14,7 @@
 
     /* negic */
     .negic-icon {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 
     .name {
@@ -22,8 +22,8 @@
     }
 
     .avt {
-        width: 15vw;
-        height: 15vw;
+        width: 20vw;
+        height: 20vw;
         margin: 2vw auto;
     }
 
@@ -32,44 +32,38 @@
     }
 
     .eye {
-        width: 4vw;
-        height: 4vw;
-        margin: 0 0.75vw;
+        width: 5vw;
+        height: 5vw;
+        margin: 0 1vw;
     }
 
     /* negic */
 
     /* scroll */
     .scroll {
-        width: 5vw;
-        height: 5vw;
+        width: 7vw;
+        height: 7vw;
         bottom: 5vh;
         right: 5vh;
     }
 
     .scroll i {
-        font-size: 3vw;
-    }
-
-    .scroll:hover i {
-        -webkit-transform: translateY(-0.5vw);
-            -ms-transform: translateY(-0.5vw);
-                transform: translateY(-0.5vw);
+        font-size: 3.5vw;
     }
 
     /* scroll */
 
     /* number */
     .anime-quantity {
-        width: 8vw;
-        height: 8vw;
+        width: 12vw;
+        height: 12vw;
         bottom: 5vh;
         left: 5vh;
-        padding: 0 0.05vw;
+        padding: 0 0.1vw;
     }
 
     .anime-number {
-        font-size: 1.8vw;
+        font-size: 2.4vw;
     }
 
     /* number */
@@ -97,6 +91,18 @@
         letter-spacing: 0.2vw;
     }
 
+    .tag-menu-item {
+        background-color: #e74c3c;
+    }
+    
+    .tag-menu-item.yes {
+        background-color: #2ecc71;
+    }
+
+    .tag-menu-item:hover {
+        opacity: 0.8;
+    }
+
     .exit-menu { 
         margin: 2vh auto;
         border-radius: 4vh;
@@ -105,7 +111,7 @@
     }
 
     .exit-menu i {
-        font-size: 4vh;
+        font-size: 6vh;
     }
 
     /* Menu */
@@ -132,7 +138,7 @@
     
     .menu-header i,
     .toggle i {
-        font-size: 2vw;
+        font-size: 4vw;
     }
 
     /* header */

@@ -14,8 +14,12 @@
 
     
     /* negic */
+    .negic {
+        margin: 2vh 0;
+    }
+
     .negic-icon {
-        font-size: 4vw;
+        font-size: 8vw;
     }
 
     .name {
@@ -38,47 +42,33 @@
         margin: 0 1.5vw;
     }
 
-    /* scroll */
-    .scroll {
-        width: 6vh;
-        height: 6vh;
-        bottom: 2vh;
-        right: 2vh;
-    }
-
     /* negic */
 
     /* scroll */
     .scroll {
-        width: 4vh;
-        height: 4vh;
-        bottom: 1vh;
-        right: 1vh;
+        width: 10vh;
+        height: 10vh;
+        bottom: 3vh;
+        right: 3vh;
     }
 
     .scroll i {
-        font-size: 2vh;
-    }
-
-    .scroll:hover i {
-        -webkit-transform: translateY(-0.5vh);
-            -ms-transform: translateY(-0.5vh);
-                transform: translateY(-0.5vh);
+        font-size: 5vh;
     }
 
     /* scroll */
 
     /* number */
     .anime-quantity {
-        width: 6vh;
-        height: 6vh;
-        bottom: 1vh;
-        left: 1vh;
-        padding: 0.05vh;
+        width: 14vh;
+        height: 14vh;
+        bottom: 3vh;
+        left: 3vh;
+        padding: 0.1vh;
     }
 
     .anime-number {
-        font-size: 1.3vh;
+        font-size: 6vh;
     }
 
     /* number */
@@ -98,19 +88,31 @@
 
     .tag-menu-all,
     .tag-menu-item {
-        height: 4vh;
-        font-size: 2vh;
-        line-height: 4vh;
-        margin: 1vh 0;
+        height: 10vh;
+        font-size: 5vh;
+        line-height: 10vh;
+        margin: 2vh 0;
         border-radius: 5vh;
-        letter-spacing: 0.2vw;
+        letter-spacing: 0.3vw;
+    }
+
+    .tag-menu-item {
+        background-color: #e74c3c;
+    }
+    
+    .tag-menu-item.yes {
+        background-color: #2ecc71;
+    }
+
+    .tag-menu-item:hover {
+        opacity: 0.8;
     }
 
     .exit-menu { 
         margin: 2vh auto;
         border-radius: 5vh;
         width: 90vw;
-        height: 4vh;
+        height: 10vh;
     }
 
     .exit-menu i {
@@ -121,14 +123,14 @@
 
     /* header */
     .header {
-        height: 3.5vh;
-        margin-top: 1vh;
+        height: 10vh;
+        margin-top: 2vh;
     }
 
     .toggle,
     .menu-header {
-        height: 3.5vh;
-        border-radius: calc(3.5vh/2); 
+        height: 10vh;
+        border-radius: calc(10vh/2); 
     }
 
     .menu-header {
@@ -141,7 +143,7 @@
 
     .menu-header i,
     .toggle i {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     /* header */
@@ -153,12 +155,12 @@
 
     .anime-wrapper {
         width: 90vw;
-        margin: 1vh auto;
+        margin: 2vh auto;
     }
 
     .anime-level {
         padding: 1vw 4vw;
-        font-size: 3.5vw;
+        font-size: 5vw;
         border-bottom-right-radius: 4vw;
         letter-spacing: 0.3vw;
     }
@@ -169,8 +171,8 @@
     }
 
     .anime-link {
-        font-size: 3.4vw;
-        line-height: 3.8vw;
+        font-size: 6vw;
+        line-height: 7vw;
     }
 
     .anime-tag-wrap {
@@ -178,22 +180,22 @@
     }
 
     .anime-tag {
-        font-size: 2vw;
-        line-height: 2.5vw;
+        font-size: 4vw;
+        line-height: 4.8vw;
     }
 
     /* body */
 
     /* footer */
     .footer {
-        padding: 0.5vh 3vw;
+        padding: 2vh 3vw;
     }
 
     .footer-item {
-        margin: 0.5vh auto;
+        margin: 1vh auto;
     }
 
     .footer-text {
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 }
