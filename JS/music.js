@@ -30,6 +30,7 @@ function music() {
                      audio.src = musicList[animeCurrent].path;
                      isPlaying = true;
                   }
+                  console.log(musicList[animeCurrent].name)
                })
                .then(() => {
                   if (isPlaying && canPlay) {
