@@ -26,5 +26,6 @@ function render() {
    error();
 };
 render();
+animeCount();
 
 export default render;
