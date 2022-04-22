@@ -119,14 +119,14 @@
 
     /* header */
     .header {
-        height: 7vh;
+        height: 6vh;
         margin-top: 2vh;
     }
 
     .toggle,
     .menu-header {
-        height: 7vh;
-        border-radius: calc(7vh/2); 
+        height: 6vh;
+        border-radius: calc(6vh/2); 
     }
 
     .menu-header {
