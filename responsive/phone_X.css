@@ -18,11 +18,11 @@
     }
 
     .negic-icon {
-        font-size: 7vw;
+        font-size: 8vw;
     }
 
     .name {
-        font-size: 4vw;
+        font-size: 7vw;
     }
 
     .avt {
@@ -45,29 +45,29 @@
 
     /* scroll */
     .scroll {
-        width: 10vw;
-        height: 10vw;
-        bottom: 8vh;
-        right: 8vh;
+        width: 8vw;
+        height: 8vw;
+        bottom: 5vh;
+        right: 5vh;
     }
 
     .scroll i {
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
 
     /* scroll */
 
     /* number */
     .anime-quantity {
-        width: 16vw;
-        height: 16vw;
-        bottom: 8vh;
-        left: 8vh;
+        width: 10vw;
+        height: 10vw;
+        bottom: 5vh;
+        left: 5vh;
         padding: 0 0.1vw;
     }
 
     .anime-number {
-        font-size: 3.4vw;
+        font-size: 2.7vw;
     }
 
     /* number */
@@ -101,10 +101,6 @@
     
     .tag-menu-item.yes {
         background-color: #2ecc71;
-    }
-
-    .tag-menu-item:hover {
-        opacity: 0.8;
     }
 
     .exit-menu { 
@@ -159,7 +155,7 @@
 
     .anime-level {
         padding: 0.5vw 3vw;
-        font-size: 6vw;
+        font-size: 4.6vw;
         border-bottom-right-radius: 3vw;
         letter-spacing: 0.3vw;
     }
@@ -170,8 +166,8 @@
     }
 
     .anime-link {
-        font-size: 7vw;
-        line-height: 8vw;
+        font-size: 5.5vw;
+        line-height: 6.5vw;
     }
 
     .anime-tag-wrap {
@@ -179,8 +175,8 @@
     }
 
     .anime-tag {
-        font-size: 4vw;
-        line-height: 5vw;
+        font-size: 2.5vw;
+        line-height: 3vw;
     }
 
     /* body */

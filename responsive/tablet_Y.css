@@ -105,10 +105,6 @@
         background-color: #2ecc71;
     }
 
-    .tag-menu-item:hover {
-        opacity: 0.8;
-    }
-
     .exit-menu {
         margin: 2vh auto;
         border-radius: 3.5vh;
@@ -124,14 +120,14 @@
 
     /* header */
     .header {
-        height: 7vh;
+        height: 5.5vh;
         margin-top: 1vh;
     }
 
     .toggle,
     .menu-header {
-        height: 7vh;
-        border-radius: calc(7vh/2);
+        height: 5.5vh;
+        border-radius: calc(5.5vh/2);
     }
 
     .menu-header {
@@ -144,7 +140,7 @@
 
     .menu-header i,
     .toggle i {
-        font-size: 4vw;
+        font-size: 3.5vw;
     }
 
     /* header */

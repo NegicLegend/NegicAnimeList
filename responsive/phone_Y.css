@@ -46,29 +46,29 @@
 
     /* scroll */
     .scroll {
-        width: 10vh;
-        height: 10vh;
+        width: 8vh;
+        height: 8vh;
         bottom: 3vh;
         right: 3vh;
     }
 
     .scroll i {
-        font-size: 5vh;
+        font-size: 3.5vh;
     }
 
     /* scroll */
 
     /* number */
     .anime-quantity {
-        width: 14vh;
-        height: 14vh;
+        width: 10vh;
+        height: 10vh;
         bottom: 3vh;
         left: 3vh;
         padding: 0.1vh;
     }
 
     .anime-number {
-        font-size: 6vh;
+        font-size: 2vh;
     }
 
     /* number */
@@ -104,10 +104,6 @@
         background-color: #2ecc71;
     }
 
-    .tag-menu-item:hover {
-        opacity: 0.8;
-    }
-
     .exit-menu { 
         margin: 2vh auto;
         border-radius: 5vh;
@@ -116,7 +112,7 @@
     }
 
     .exit-menu i {
-        font-size: 2.5vw;
+        font-size: 4vh;
     }
 
     /* Menu */
@@ -180,8 +176,8 @@
     }
 
     .anime-tag {
-        font-size: 4vw;
-        line-height: 4.8vw;
+        font-size: 2.6vw;
+        line-height: 3.4vw;
     }
 
     /* body */
@@ -192,7 +188,7 @@
     }
 
     .footer-item {
-        margin: 1vh auto;
+        margin: 0.5vh auto;
     }
 
     .footer-text {
