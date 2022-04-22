@@ -1,0 +1,103 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 10 versions
+*/
+
+body {
+    background-color: #74b9ff;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.tag-menu-wrap {
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.toggle-theme #moon {
+    display: none;
+}
+
+.no-anime,
+.anime-tag {
+    color: black;
+}
+
+.anime-wrapper:hover {
+    -webkit-box-shadow: 0 0 0 1rem #273c75;
+            box-shadow: 0 0 0 1rem #273c75;
+    border: 0.1rem solid #273c75;
+}
+
+.face {
+    background-color: #fbff03;
+    -webkit-transition: 0.5;
+    -o-transition: 0.5;
+    transition: 0.5;
+}
+
+.face::before {
+    background-color: #e08e00;
+}
+
+.name {
+    color: #f1f2f6;
+}
+
+.name::before {
+    color: #222f3e;
+    border-right: 2px solid #222f3e;
+    -webkit-animation: grow 6s linear forwards, fadeOut 6s linear forwards;
+            animation: grow 6s linear forwards, fadeOut 6s linear forwards;
+}
+
+.description {
+    color: black;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.avt {
+    border: 0.2rem solid #222f3e;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+@media screen and (orientation:landscape) {
+    .name {
+        -webkit-text-stroke: 0.02vw #222f3e;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    .name {
+        -webkit-text-stroke: 0.03vw #222f3e;
+    }
+}
+
+@-webkit-keyframes grow {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        border-right: 2px solid #222f3e;
+    }
+
+    100% {
+        border-right: 0px solid #222f3e;
+    }
+}

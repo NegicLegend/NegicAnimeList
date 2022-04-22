@@ -1,0 +1,190 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 10 versions
+*/
+
+@media screen and (max-aspect-ratio: 16/9) and (orientation:landscape) and (min-width: 550px) and (max-width: 1099px) {
+    html {
+        font-size: 8px;
+    }
+
+    /* main */
+
+    /* negic */
+    .negic-icon {
+        font-size: 4vw;
+    }
+
+    .name {
+        font-size: 4vw;
+    }
+
+    .avt {
+        width: 15vw;
+        height: 15vw;
+        margin: 2vw auto;
+    }
+
+    .description {
+        font-size: 3vw;
+    }
+
+    .eye {
+        width: 4vw;
+        height: 4vw;
+        margin: 0 0.75vw;
+    }
+
+    /* negic */
+
+    /* scroll */
+    .scroll {
+        width: 5vw;
+        height: 5vw;
+        bottom: 5vh;
+        right: 5vh;
+    }
+
+    .scroll i {
+        font-size: 3vw;
+    }
+
+    .scroll:hover i {
+        -webkit-transform: translateY(-0.5vw);
+            -ms-transform: translateY(-0.5vw);
+                transform: translateY(-0.5vw);
+    }
+
+    /* scroll */
+
+    /* number */
+    .anime-quantity {
+        width: 8vw;
+        height: 8vw;
+        bottom: 5vh;
+        left: 5vh;
+        padding: 0 0.05vw;
+    }
+
+    .anime-number {
+        font-size: 1.8vw;
+    }
+
+    /* number */
+
+    /* Menu */
+    .tag-menu {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    .tag-menu-half {
+        padding: 0 5vw;
+        width: 50%;
+    }
+
+    .tag-menu-all,
+    .tag-menu-item {
+        height: 8vh;
+        font-size: 4.5vh;
+        line-height: 8vh;
+        margin: 1.5vh 0;
+        border-radius: 4vh;
+        letter-spacing: 0.2vw;
+    }
+
+    .exit-menu { 
+        margin: 2vh auto;
+        border-radius: 4vh;
+        width: 90vw;
+        height: 8vh;
+    }
+
+    .exit-menu i {
+        font-size: 4vh;
+    }
+
+    /* Menu */
+
+    /* header */
+    .header {
+        height: 8vh;
+        margin-top: 2vh;
+    }
+
+    .toggle,
+    .menu-header {
+        height: 6vh;
+        border-radius: 3vh; 
+    }
+    
+    .menu-header {
+        width: 15vw;
+    }
+    
+    .toggle {
+        width: 30vw;
+    }
+    
+    .menu-header i,
+    .toggle i {
+        font-size: 2vw;
+    }
+
+    /* header */
+
+    /* body */
+    .main {
+        padding: 1.5vh 0;
+    }
+
+    .anime-wrapper {
+        width: 95vw;
+        margin: 1.5vh auto;
+    }
+
+    .anime-level {
+        padding: 0.5vw 2vw;
+        font-size: 3vw;
+        border-bottom-right-radius: 2vw;
+        letter-spacing: 0.2vw;
+    }
+
+    .anime-img-wrap {
+        height: calc(95vw / 3);
+        border-bottom: 0.05vw solid white;
+    }
+
+    .anime-link {
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
+
+    .anime-tag-wrap {
+        padding: 1vh 2vw;
+    }
+
+    .anime-tag {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    /* body */
+
+    /* footer */
+    .footer {
+        padding: 2vh 3vw;
+    }
+
+    .footer-item {
+        margin: 1vh auto;
+    }
+
+    .footer-text {
+        font-size: 2.5vw;
+    }
+}

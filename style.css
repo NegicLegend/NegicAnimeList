@@ -1,0 +1,704 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 10 versions
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 100% !important;
+    overflow: hidden !important;
+    position: relative;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* Main */
+
+/* negic */
+.negic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+}
+
+.self {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    overflow: hidden;
+}
+
+.self.active {
+    height: 0;
+}
+
+.negic-icon {
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto auto auto; 
+}
+
+.negic-icon.active {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.name {
+    margin: 0 auto;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.3vw;
+    text-align: center;
+    position: relative;
+}
+
+.name::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.avt {
+    overflow: hidden !important;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.avt-img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    margin: 0 auto;
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    max-width: 95%;
+}
+
+.description span {
+    position: relative;
+    display: inline-block;
+    -webkit-animation: MoveTop 4s ease-in-out infinite;
+            animation: MoveTop 4s ease-in-out infinite;
+    -webkit-animation-delay: calc(0.1s * var(--i));
+            animation-delay: calc(0.1s * var(--i));
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+    -webkit-user-select: none !important;
+       -moz-user-select: none !important;
+        -ms-user-select: none !important;
+            user-select: none !important;
+}
+
+.description:hover span {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+}
+
+/* negic */
+
+/* face */
+.face {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 100;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.avt.active .face {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.face::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    width: 50%;
+    height: 25%;
+    border-bottom-left-radius: 1000vw;
+    border-bottom-right-radius: 1000vw;
+    left: 25%;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.face:hover:before {
+    top: 70%;
+    width: 50%;
+    height: 6%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.eyes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    top: -12%;
+}
+
+.eye {
+    position: relative;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.eye::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 31.25%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+/* face */
+
+/* scroll */
+.scroll {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    z-index: 600;
+    display: none;
+    cursor: pointer;
+}
+
+.scroll i {
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+/* scroll */
+
+/* number */
+.anime-quantity {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    z-index: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.anime-number {
+    font-family: 'Merienda', cursive;
+    color: white;
+    text-align: center;
+}
+
+/* number */
+
+/* Menu */
+.tag-menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 900;
+    -webkit-transition: -webkit-transform linear 0.4s;
+    transition: -webkit-transform linear 0.4s;
+    -o-transition: transform linear 0.4s;
+    transition: transform linear 0.4s;
+    transition: transform linear 0.4s, -webkit-transform linear 0.4s;
+    overflow-y: auto;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+}
+
+.tag-menu-wrap.active {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+}
+
+.tag-menu {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.tag-menu-half {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.tag-menu-wrap::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    display: inline-block;
+}
+
+.tag-menu-wrap::-webkit-scrollbar {
+    width: 1.2vw;
+    background-color: #F5F5F5;
+}
+
+.tag-menu-wrap::-webkit-scrollbar-thumb {
+    border-radius: 0.6vw;
+    background-color: #0ae;
+}
+
+.tag-menu-all,
+.tag-menu-item {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    display: inline-block;
+    -webkit-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+    font-family: 'Cairo', sans-serif;
+}
+
+.tag-menu-item {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #d63031), color-stop(50%, #44bd32)) right;
+    background: -o-linear-gradient(right, #d63031 50%, #44bd32 50%) right;
+    background: linear-gradient(to left, #d63031 50%, #44bd32 50%) right;
+    background-size: 200%;
+    cursor: pointer;
+}
+
+.tag-menu-all {
+    background-color: #2ecc71;
+    cursor: default;
+}
+
+.tag-menu-all.active {
+    background-color: #d63031;
+    -webkit-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+    cursor: pointer;
+}
+
+.tag-menu-all.active:hover {
+    background-color: #10ac84;
+}
+
+.tag-menu-item.yes {
+    background: -webkit-gradient(linear, right top, left top, color-stop(50%, #2ecc71), color-stop(50%, #e74c3c)) right;
+    background: -o-linear-gradient(right, #2ecc71 50%, #e74c3c 50%) right;
+    background: linear-gradient(to left, #2ecc71 50%, #e74c3c 50%) right;
+    background-size: 200%;
+}
+
+.tag-menu-item:hover,
+.tag-menu-item.yes:hover {
+    background-position: left;
+}
+
+.exit-menu {
+    cursor: pointer;
+    background-color: #e74c3c;
+    -webkit-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.exit-menu i {
+    -webkit-transition: 0.15s linear;
+    -o-transition: 0.15s linear;
+    transition: 0.15s linear;
+    color: white;
+}
+
+.exit-menu:hover i {
+    opacity: 0.8;
+}
+
+.exit-menu:hover {
+    background-color: #d63031;
+}
+
+/* Menu */
+
+/* header */
+.header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.menu-header {
+    background-color: #3c6382;
+}
+
+.toggle-volume {
+    background-color: #d63031;
+    overflow: hidden;
+    position: relative;
+}
+
+.toggle-volume::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    background-color: #6ab04c;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: height 0.35s linear, width 0.35s linear;
+    -o-transition: height 0.35s linear, width 0.35s linear;
+    transition: height 0.35s linear, width 0.35s linear;
+}
+
+.toggle-volume.active::before {
+    background-color: #d63031;
+}
+
+.toggle-volume:hover::before {
+    width: 100vw;
+    height: 100vw;
+}
+
+.toggle-volume.active {
+    background-color: #6ab04c;
+}
+
+.toggle-theme {
+    background-color: #0a3d62;
+}
+
+.menu-header:hover,
+.toggle:hover {
+    opacity: 0.8;
+}
+
+.toggle,
+.menu-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+    opacity: 1;
+}
+
+.menu-header i,
+.toggle i {
+    color: white;
+    z-index: 100;
+}
+
+/* header */
+
+/* body */
+.main {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.anime-wrapper {
+    border: 0.1rem solid white;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.anime-wrapper::before {
+    content: "";
+    position: absolute;
+    z-index: 90;
+    top: 0;
+    left: -120%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transform: skewX(5deg);
+        -ms-transform: skewX(5deg);
+            transform: skewX(5deg);
+    -webkit-transition-delay: 0.5s;
+         -o-transition-delay: 0.5s;
+            transition-delay: 0.5s;
+}
+
+.anime-wrapper:hover::before {
+    left: 120%;
+}
+
+.anime-img-wrap {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+}
+
+.anime-img-wrap.center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.anime-img-wrap.up {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.anime-img-wrap.down {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+
+.anime-level {
+    position: absolute;
+    left: 0;
+    top: -100%;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 600;
+    background-color: #333;
+    opacity: 0.8;
+    color: white;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    z-index: 800;
+}
+
+.anime-wrapper:hover .anime-level {
+    top: 0;
+}
+
+.anime-img {
+    width: 100%;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.anime-link {
+    color: white;
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-shadow: 2px 5px 5px black;
+    z-index: 99;
+    width: 90%;
+}
+
+.anime-wrapper:hover .anime-img {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.anime-tag-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.anime-tag {
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: 600;
+}
+
+/* body */
+
+/* footer */
+.footer {
+    background-color: #192A56;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.footer-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #0AA8FA;
+}
+
+.footer-text a:hover {
+    opacity: 0.8;
+}
