@@ -1,4 +1,5 @@
 import music from './music.js';
+import animeCount from './count.js';
 import error from './error.js'
 import animeList from './List/AnimeList.js';
 
