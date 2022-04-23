@@ -2540,6 +2540,17 @@ const animeList = [
       activeTag: ['Fantasy', 'Action', 'Historical', 'Comedy', 'Supernatural', 'Adventure', 'Romance'],
       active: true,
    },
+   {
+      animeindex: 232,
+      level: 'Legendary',
+      imgP: 'up',
+      img: './img/232.jpg',
+      link: 'https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon',
+      name: 'Kobayashi san Chi no Maid Dragon',
+      tagS: 'Slice of Life, Comedy, Supernatural, Fantasy',
+      activeTag: ['Fantasy', 'Action', 'Supernatural', 'Fantasy'],
+      active: true,
+   },
 ];
 
 export default animeList;
