@@ -2551,6 +2551,17 @@ const animeList = [
       activeTag: ['Comedy', 'Slice of Life', 'Supernatural', 'Fantasy'],
       active: true,
    },
+   {
+      animeindex: 233,
+      level: 'Epic',
+      imgP: 'upWotaku ni Koi wa Muzukashi',
+      img: './img/233.jpg',
+      link: 'https://myanimelist.net/anime/35968/Wotaku_ni_Koi_wa_Muzukashii',
+      name: 'Wotaku ni Koi wa Muzukashii',
+      tagS: 'Slice of Life, Comedy, Romance',
+      activeTag: ['Comedy', 'Slice of Life', 'Romance'],
+      active: true,
+   },
 ];
 
 export default animeList;

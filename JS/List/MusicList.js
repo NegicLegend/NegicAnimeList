@@ -927,6 +927,10 @@ const musicList = [
       name: 'Kobayashi san Chi no Maid Dragon',
       path: './music/232.mp3'
    },
+   {
+      name: 'Wotaku ni Koi wa Muzukashii',
+      path: './music/233.mp3'
+   },
 ];
 
 export default musicList;
