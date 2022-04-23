@@ -435,8 +435,8 @@ const animeList = [
       img: './img/40.jpg',
       link: 'https://myanimelist.net/anime/18897/Nisekoi',
       name: 'Nisekoi',
-      tagS: 'Comedy, School, Harem, School, Romance',
-      activeTag: ['Comedy', 'School', 'Harem', 'School', 'Romance'],
+      tagS: 'Comedy, School, Harem, Romance',
+      activeTag: ['Comedy', 'School', 'Harem', 'Romance'],
       active: true,
    },
    {
@@ -2058,7 +2058,7 @@ const animeList = [
    },
    {
       animeindex: 188,
-      level: 'Legendary',
+      level: 'Mythical',
       imgP: 'center',
       img: './img/188.jpg',
       link: 'https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi',
@@ -2157,7 +2157,7 @@ const animeList = [
    },
    {
       animeindex: 197,
-      level: 'Epic',
+      level: 'Legendary',
       imgP: 'center',
       img: './img/197.jpg',
       link: 'https://myanimelist.net/anime/16782/Kotonoha_no_Niwa',
@@ -2392,7 +2392,7 @@ const animeList = [
       imgP: 'up',
       img: './img/218.jpg',
       link: 'https://myanimelist.net/anime/30187/Sakurako-san_no_Ashimoto_ni_wa_Shitai_ga_Umatteiru',
-      name: 'Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru',
+      name: 'Sakurako san no Ashimoto ni wa Shitai ga Umatteiru',
       tagS: 'Detective, Drama',
       activeTag: ['Drama', 'Detective'],
       active: true,
