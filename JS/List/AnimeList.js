@@ -2562,6 +2562,17 @@ const animeList = [
       activeTag: ['Comedy', 'Slice of Life', 'Romance'],
       active: true,
    },
+   {
+      animeindex: 234,
+      level: 'Legendary',
+      imgP: 'center',
+      img: './img/234.jpg',
+      link: 'https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso',
+      name: 'Shigatsu wa Kimi no Uso',
+      tagS: 'Music, Psychological, Slice of Life, Romance',
+      activeTag: ['Music', 'Psychological', 'Slice of Life', 'Romance'],
+      active: true,
+   },
 ];
 
 export default animeList;
