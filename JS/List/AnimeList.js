@@ -2554,7 +2554,7 @@ const animeList = [
    {
       animeindex: 233,
       level: 'Epic',
-      imgP: 'upWotaku ni Koi wa Muzukashi',
+      imgP: 'up',
       img: './img/233.jpg',
       link: 'https://myanimelist.net/anime/35968/Wotaku_ni_Koi_wa_Muzukashii',
       name: 'Wotaku ni Koi wa Muzukashii',
