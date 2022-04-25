@@ -23,14 +23,12 @@ function music() {
                .then(() => {
                   let animeIndex = parseInt(anime[i].getAttribute('data-index')) - 1;
                   if (animeCurrent == animeIndex) {
-                     animeCurrent = animeIndex;
                      isPlaying = true;
                   } else if (animeCurrent != animeIndex) {
                      animeCurrent = animeIndex;
                      audio.src = musicList[animeCurrent].path;
                      isPlaying = true;
                   }
-                  console.log(musicList[animeCurrent].name)
                })
                .then(() => {
                   if (isPlaying && canPlay) {

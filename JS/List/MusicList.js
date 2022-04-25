@@ -935,6 +935,10 @@ const musicList = [
       name: 'Shigatsu wa Kimi no Uso',
       path: './music/234.mp3'
    },
+   {
+      name: 'Nanbaka',
+      path: './music/235.mp3'
+   },
 ];
 
 export default musicList;
