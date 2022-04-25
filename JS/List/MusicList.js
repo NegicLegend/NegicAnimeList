@@ -912,7 +912,7 @@ const musicList = [
       path: './music/228.mp3'
    },
    {
-      name: 'Tensai Ouji no Akaji Kokka Saisei Jutsu',
+      name: 'Momokuri',
       path: './music/229.mp3'
    },
    {
