@@ -939,6 +939,10 @@ const musicList = [
       name: 'Nanbaka',
       path: './music/235.mp3'
    },
+   {
+      name: 'The God of Highschool',
+      path: './music/236.mp3'
+   },
 ];
 
 export default musicList;

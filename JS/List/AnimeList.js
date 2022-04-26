@@ -2584,6 +2584,17 @@ const animeList = [
       activeTag: ['Comedy', 'Action', 'Supernatural', 'Drama'],
       active: true,
    },
+   {
+      animeindex: 236,
+      level: 'Epic',
+      imgP: 'up',
+      img: './img/236.jpg',
+      link: 'https://myanimelist.net/anime/42893/The_God_of_Highschool',
+      name: 'The God of Highschool',
+      tagS: 'Action, Martial Art, Supernatural, Drama, Comedy',
+      activeTag: ['Action', 'Martial Art', 'Supernatural', 'Drama', 'Comedy'],
+      active: true,
+   },
 ];
 
 export default animeList;

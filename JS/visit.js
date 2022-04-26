@@ -1,3 +1,3 @@
 function websiteVisits(response) {
-   document.querySelector("#visits").textContent = response.value;
+   console.log(`This site has been visited ${response.value} times`);
 }
