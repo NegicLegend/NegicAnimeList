@@ -951,6 +951,82 @@ const musicList = [
       name: 'Nakitai Watashi wa Neko wo Kaburu',
       path: './music/238.mp3'
    },
+   {
+      name: 'Log Horizon',
+      path: './music/239.mp3'
+   },
+   {
+      name: 'Yuru Yuri',
+      path: './music/240.mp3'
+   },
+   {
+      name: 'No.6',
+      path: './music/241.mp3'
+   },
+   {
+      name: 'Kami nomi zo Shiru Sekai: Megami-hen',
+      path: './music/242.mp3'
+   },
+   {
+      name: 'Hentai Ouji to Warawanai Neko',
+      path: './music/243.mp3'
+   },
+   {
+      name: 'Kamisama no Inai Nichiyoubi',
+      path: './music/244.mp3'
+   },
+   {
+      name: 'Nagi no Asu kara',
+      path: './music/245.mp3'
+   },
+   {
+      name: 'Mayoiga',
+      path: './music/246.mp3'
+   },
+   {
+      name: 'Kuma Miko',
+      path: './music/247.mp3'
+   },
+   {
+      name: 'ACCA: 13 ku Kansatsu k',
+      path: './music/248.mp3'
+   },
+   {
+      name: 'Shoujo Shuumatsu Ryokou',
+      path: './music/249.mp3'
+   },
+   {
+      name: 'Itsudatte Bokura no Koi wa 10 cm Datta',
+      path: './music/250.mp3'
+   },
+   {
+      name: 'Itou Junji: Collection',
+      path: './music/251.mp3'
+   },
+   {
+      name: 'Hakata Tonkotsu Ramens',
+      path: './music/252.mp3'
+   },
+   {
+      name: 'Yakusoku no Neverland',
+      path: './music/253.mp3'
+   },
+   {
+      name: 'Jibaku Shounen Hanako kun',
+      path: './music/254.mp3'
+   },
+   {
+      name: 'Somali to Mori no Kamisama',
+      path: './music/255.mp3'
+   },
+   {
+      name: '180 Byou de Kimi no Mimi wo Shiawase ni Dekiru ka?',
+      path: './music/256.mp3'
+   },
+   {
+      name: 'Koroshi Ai',
+      path: './music/257.mp3'
+   },
 ];
 
 export default musicList;
