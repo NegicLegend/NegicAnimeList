@@ -943,6 +943,10 @@ const musicList = [
       name: 'The God of Highschool',
       path: './music/236.mp3'
    },
+   {
+      name: 'Himouto! Umaru chan',
+      path: './music/237.mp3'
+   },
 ];
 
 export default musicList;

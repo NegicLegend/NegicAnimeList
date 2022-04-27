@@ -2595,6 +2595,17 @@ const animeList = [
       activeTag: ['Action', 'Martial Art', 'Supernatural', 'Drama', 'Comedy'],
       active: true,
    },
+   {
+      animeindex: 237,
+      level: 'Epic',
+      imgP: 'up',
+      img: './img/237.jpg',
+      link: 'https://myanimelist.net/anime/28825/Himouto_Umaru-chan',
+      name: 'Himouto! Umaru chan',
+      tagS: 'Comedy, Slice of Life, School',
+      activeTag: ['Comedy', 'Slice of Life', 'School'],
+      active: true,
+   },
 ];
 
 export default animeList;
