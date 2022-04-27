@@ -438,6 +438,21 @@ body {
     position: relative;
 }
 
+#sound {
+    display: none;
+}
+
+#mute {
+    display: inline-block;
+}
+
+.toggle-volume.active #sound {
+    display: inline-block;
+}
+.toggle-volume.active #mute {
+    display: none;
+}
+
 .toggle-volume.active {
     background-color: #6ab04c;
 }
