@@ -2606,6 +2606,17 @@ const animeList = [
       activeTag: ['Comedy', 'Slice of Life', 'School'],
       active: true,
    },
+   {
+      animeindex: 238,
+      level: 'Epic',
+      imgP: 'up',
+      img: './img/238.jpg',
+      link: 'https://myanimelist.net/anime/41168/Nakitai_Watashi_wa_Neko_wo_Kaburu',
+      name: 'Nakitai Watashi wa Neko wo Kaburu',
+      tagS: 'Drama, Supernatural, Romance',
+      activeTag: ['Drama', 'Supernatural', 'Romance'],
+      active: true,
+   },
 ];
 
 export default animeList;

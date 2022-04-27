@@ -947,6 +947,10 @@ const musicList = [
       name: 'Himouto! Umaru chan',
       path: './music/237.mp3'
    },
+   {
+      name: 'Nakitai Watashi wa Neko wo Kaburu',
+      path: './music/238.mp3'
+   },
 ];
 
 export default musicList;
