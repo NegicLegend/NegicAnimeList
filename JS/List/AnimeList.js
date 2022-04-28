@@ -930,8 +930,8 @@ const animeList = [
       img: './img/85.jpg',
       link: 'https://myanimelist.net/anime/33352/Violet_Evergarden',
       name: 'Violet Evergarden',
-      tagS: 'Psychological',
-      activeTag: ['Psychological'],
+      tagS: 'Psychological, Slice of Life',
+      activeTag: ['Psychological', 'Slice of Life'],
       active: true,
    },
    {
