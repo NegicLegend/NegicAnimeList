@@ -2355,7 +2355,7 @@ const animeList = [
    },
    {
       animeindex: 215,
-      level: 'Legendary',
+      level: 'Mythical',
       imgP: 'up',
       img: './img/215.jpg',
       link: 'https://myanimelist.net/anime/41025/Fumetsu_no_Anata_e',
