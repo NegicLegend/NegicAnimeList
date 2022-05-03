@@ -17,10 +17,9 @@ for(let i = 0; i < tagBtnList.length; i++) {
 
             promise
                 .then(() => {
-                    const all_Btn = document.querySelector('.tag-menu-all');
                     if(tagBtnList[i].classList.contains('yes')) {
                         tagBtnList[i].classList.remove('yes');
-                        all_Btn.classList.add('active');
+                        all.classList.add('active');
                     }else {
                         tagBtnList[i].classList.add('yes');
 
