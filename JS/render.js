@@ -10,7 +10,7 @@ function render() {
       if(anm.active) {
          return `
             <article class="anime-wrapper" data-index="${anm.animeindex}">
-            <div class="anime-level">${anm.level}</div>
+               <div class="anime-level">${anm.level}</div>
                <div class="anime-img-wrap ${anm.imgP}">
                   <img src="${anm.img}" class="anime-img">
                   <a href="${anm.link}" class="anime-link">${anm.name}</a>
