@@ -63,20 +63,38 @@ all.addEventListener('click', () => {
 
     promise
         .then(() => {
-            for(let i = 0; i < tagBtnList.length; i++) {
-                if(!tagBtnList[i].classList.contains('yes')) {
-                    tagBtnList[i].classList.add('yes');
+            if(all.classList.contains('yes')) {
+                for(let i = 0; i < tagBtnList.length; i++) {
+                    if(!tagBtnList[i].classList.contains('yes')) {
+                        tagBtnList[i].classList.add('yes');
+                    }
+                }
+            }else {
+                for(let i = 0; i < tagBtnList.length; i++) {
+                    if(tagBtnList[i].classList.contains('yes')) {
+                        tagBtnList[i].classList.remove('yes');
+                    }
                 }
             }
         })
         .then(() => {
-            for(let i = 0; i < TagsList.length; i++) {
-                TagsList[i].tagValue = true;
+            if(all.classList.contains('yes')) {
+                for(let i = 0; i < TagsList.length; i++) {
+                    TagsList[i].tagValue = true;
+                }
+                for(let a = i; a < animeList.length; i++) {
+                    animeList[i].active = true;
+                }
+                all.classList.remove('active');
+            }else {
+                for(let i = 0; i < TagsList.length; i++) {
+                    TagsList[i].tagValue = false;
+                }
+                for(let a = i; a < animeList.length; i++) {
+                    animeList[i].active = false;
+                }
+                all.classList.add('active');
             }
-            for(let a = 0; a < animeList.length; a++) {
-                animeList[a].active = true;
-            }
-            all.classList.remove('active');
         })
         .then(() => {
             render();
