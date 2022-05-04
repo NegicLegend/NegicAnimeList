@@ -63,7 +63,7 @@ all.addEventListener('click', () => {
 
     promise
         .then(() => {
-            if(all.classList.contains('yes')) {
+            if(all.classList.contains('active')) {
                 for(let i = 0; i < tagBtnList.length; i++) {
                     if(!tagBtnList[i].classList.contains('yes')) {
                         tagBtnList[i].classList.add('yes');
@@ -78,7 +78,7 @@ all.addEventListener('click', () => {
             }
         })
         .then(() => {
-            if(all.classList.contains('yes')) {
+            if(all.classList.contains('active')) {
                 for(let i = 0; i < TagsList.length; i++) {
                     TagsList[i].tagValue = true;
                 }
