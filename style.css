@@ -358,15 +358,11 @@ body {
     -o-transition: 0.15s linear;
     transition: 0.15s linear;
     font-family: 'Cairo', sans-serif;
-}
-
-.tag-menu-item {
     cursor: pointer;
 }
 
 .tag-menu-all {
     background-color: #2ecc71;
-    cursor: default;
 }
 
 .tag-menu-all.active {
@@ -374,7 +370,6 @@ body {
     -webkit-transition: 0.15s linear;
     -o-transition: 0.15s linear;
     transition: 0.15s linear;
-    cursor: pointer;
 }
 
 .tag-menu-all.active:hover {
@@ -610,7 +605,10 @@ body {
             transform: translate(-50%, -50%);
     text-shadow: 2px 5px 5px black;
     z-index: 99;
-    width: 90%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 90%;
 }
 
 .anime-wrapper:hover .anime-img {

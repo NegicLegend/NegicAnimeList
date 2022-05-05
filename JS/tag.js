@@ -82,7 +82,7 @@ all.addEventListener('click', () => {
                 for(let i = 0; i < TagsList.length; i++) {
                     TagsList[i].tagValue = true;
                 }
-                for(let a = i; a < animeList.length; i++) {
+                for(let i = 0; i < animeList.length; i++) {
                     animeList[i].active = true;
                 }
                 all.classList.remove('active');
@@ -90,7 +90,7 @@ all.addEventListener('click', () => {
                 for(let i = 0; i < TagsList.length; i++) {
                     TagsList[i].tagValue = false;
                 }
-                for(let a = i; a < animeList.length; i++) {
+                for(let i = 0; i < animeList.length; i++) {
                     animeList[i].active = false;
                 }
                 all.classList.add('active');

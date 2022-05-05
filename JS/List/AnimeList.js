@@ -468,8 +468,8 @@ const animeList = [
       img: './img/43.jpg',
       link: 'https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch',
       name: 'Code Geass',
-      tagS: 'Drama, Action, Mecha, Fantasy',
-      activeTag: ['Drama', 'Action', 'Mecha', 'Fantasy'],
+      tagS: 'Drama, Action, Mecha, Fantasy, Military',
+      activeTag: ['Drama', 'Action', 'Mecha', 'Fantasy', 'Military'],
       active: true,
    },
    {
@@ -941,8 +941,8 @@ const animeList = [
       img: './img/86.jpg',
       link: 'https://myanimelist.net/anime/37450/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai',
       name: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai',
-      tagS: 'Comedy, School, Supernatural, Romance, Psychological',
-      activeTag: ['Comedy', 'School', 'Supernatural', 'Romance', 'Psychological'],
+      tagS: 'Comedy, School, Supernatural, Romance, Psychological, Military',
+      activeTag: ['Comedy', 'School', 'Supernatural', 'Romance', 'Psychological', 'Military'],
       active: true,
    },
    {
