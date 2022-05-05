@@ -6,8 +6,8 @@ const animeList = [
       img: './img/1.jpg',
       link: 'https://myanimelist.net/anime/21/One_Piece',
       name: 'One Piece',
-      tagS: 'Action, Fantasy, Adventure, Comedy, Psychological',
-      activeTag: ['Action', 'Fantasy', 'Adventure', 'Comedy', 'Psychological'],
+      tagS: 'Action, Fantasy, Adventure, Comedy',
+      activeTag: ['Action', 'Fantasy', 'Adventure', 'Comedy'],
       active: true,
    },
    {
