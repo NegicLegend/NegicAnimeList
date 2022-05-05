@@ -1027,6 +1027,10 @@ const musicList = [
       name: 'Koroshi Ai',
       path: './music/257.mp3'
    },
+   {
+      name: 'Yama no Susume',
+      path: './music/258.mp3'
+   },
 ];
 
 export default musicList;

@@ -441,7 +441,7 @@ const animeList = [
    },
    {
       animeindex: 41,
-      level: 'Epic',
+      level: 'Legendary',
       imgP: 'up',
       img: './img/41.jpg',
       link: 'https://myanimelist.net/anime/31953/New_Game',
@@ -2824,6 +2824,17 @@ const animeList = [
       name: 'Koroshi Ai',
       tagS: 'Action, Romance',
       activeTag: ['Action', 'Romance'],
+      active: true,
+   },
+   {
+      animeindex: 258,
+      level: 'Epic',
+      imgP: 'up',
+      img: './img/258.jpg',
+      link: 'https://myanimelist.net/anime/35672/Yama_no_Susume_Third_Season',
+      name: 'Yama no Susume',
+      tagS: 'Slice of Life, Comedy, Sport',
+      activeTag: ['Comedy', 'Sport', 'Slice of Life'],
       active: true,
    },
 ];
