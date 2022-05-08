@@ -848,13 +848,13 @@ const animeList = [
    },
    {
       animeindex: 78,
-      level: 'Epic',
+      level: 'Legendary',
       imgP: 'up',
       img: './img/78.jpg',
       link: 'https://myanimelist.net/anime/38992/Rikei_ga_Koi_ni_Ochita_no_de_Shoumei_shitemita',
       name: 'Rikei ga Koi ni Ochita no de Shoumei shitemita',
-      tagS: 'Comedy, Romance',
-      activeTag: ['Comedy', 'Romance'],
+      tagS: 'Comedy, Romance, Slice of Life',
+      activeTag: ['Comedy', 'Romance', 'Slice of Life'],
       active: true,
    },
    {
