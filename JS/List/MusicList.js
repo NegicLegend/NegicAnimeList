@@ -1031,6 +1031,10 @@ const musicList = [
       name: 'Yama no Susume',
       path: './music/258.mp3'
    },
+   {
+      name: 'Bubble',
+      path: './music/259.webm'
+   },
 ];
 
 export default musicList;

@@ -2837,6 +2837,17 @@ const animeList = [
       activeTag: ['Comedy', 'Sport', 'Slice of Life'],
       active: true,
    },
+   {
+      animeindex: 259,
+      level: 'Lege',
+      imgP: 'up',
+      img: './img/259.jpg',
+      link: 'https://myanimelist.net/anime/50549/Bubble',
+      name: 'Bubble',
+      tagS: 'Supernatural, Sport, Romance, Adventure, Comedy',
+      activeTag: ['Supernatural', 'Sport', 'Romance', 'Adventure', 'Comedy'],
+      active: true,
+   },
 ];
 
 export default animeList;
