@@ -2536,8 +2536,8 @@ const animeList = [
       img: './img/231.jpg',
       link: 'https://myanimelist.net/anime/12431/Uchuu_Kyoudai',
       name: 'Uchuu Kyoudai',
-      tagS: 'Slice of Life, Comedy, Science Fiction',
-      activeTag: ['Slice of Life', 'Comedy', 'Science Fiction'],
+      tagS: 'Slice of Life, Comedy, Psychological, Science Fiction',
+      activeTag: ['Slice of Life', 'Comedy', 'Science Fiction', 'Psychological'],
       active: true,
    },
    {
