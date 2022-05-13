@@ -70,24 +70,6 @@
         letter-spacing: 0.2vw;
     }
 
-    .tag-menu-item {
-        background: -webkit-gradient(linear, right top, left top, color-stop(50%, #d63031), color-stop(50%, #44bd32)) right;
-        background: -o-linear-gradient(right, #d63031 50%, #44bd32 50%) right;
-        background: linear-gradient(to left, #d63031 50%, #44bd32 50%) right;
-        background-size: 200%;
-    }
-
-    .tag-menu-item.yes {
-        background: -webkit-gradient(linear, right top, left top, color-stop(50%, #2ecc71), color-stop(50%, #e74c3c)) right;
-        background: -o-linear-gradient(right, #2ecc71 50%, #e74c3c 50%) right;
-        background: linear-gradient(to left, #2ecc71 50%, #e74c3c 50%) right;
-        background-size: 200%;
-    }
-    
-    .tag-menu-item:hover {
-        background-position: left;
-    }
-
     .exit-menu { 
         margin: 2vh auto;
         border-radius: 5vh;

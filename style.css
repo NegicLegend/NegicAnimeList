@@ -361,6 +361,14 @@ body {
     cursor: pointer;
 }
 
+.tag-menu-item {
+    background-color: #d63031;
+}
+
+.tag-menu-item.yes {
+    background-color: #2ecc71;
+}
+
 .tag-menu-all {
     background-color: #2ecc71;
 }
@@ -370,10 +378,6 @@ body {
     -webkit-transition: 0.15s linear;
     -o-transition: 0.15s linear;
     transition: 0.15s linear;
-}
-
-.tag-menu-all.active:hover {
-    background-color: #10ac84;
 }
 
 .exit-menu {
