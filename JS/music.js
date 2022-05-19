@@ -24,7 +24,7 @@ function music() {
                   let animeIndex = parseInt(anime[i].getAttribute('data-index')) - 1;
                   if (animeCurrent == animeIndex) {
                      isPlaying = true;
-                  } else if (animeCurrent != animeIndex) {
+                  } else {
                      animeCurrent = animeIndex;
                      audio.src = musicList[animeCurrent].path;
                      isPlaying = true;
