@@ -516,7 +516,7 @@ const musicList = [
       path: './music/129.webm'
    },
    {
-      name: 'Zero kara Hajimeru Mahou no Sho',
+      name: 'Gate: Jieitai Kanochi nite, Kaku Tatakaeri',
       path: './music/130.mp3'
    },
    {
