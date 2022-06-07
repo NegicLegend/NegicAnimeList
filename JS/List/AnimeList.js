@@ -2729,7 +2729,7 @@ const animeList = [
    },
    {
       animeindex: 249,
-      level: 'Epic',
+      level: 'Legendary',
       imgP: 'down',
       img: './img/249.jpg',
       link: 'https://myanimelist.net/anime/35838/Shoujo_Shuumatsu_Ryokou',
