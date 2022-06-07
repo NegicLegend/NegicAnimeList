@@ -2454,7 +2454,7 @@ const animeList = [
    },
    {
       animeindex: 224,
-      level: 'Legendary',
+      level: 'Epic',
       imgP: 'up',
       img: './img/224.jpg',
       link: 'https://myanimelist.net/anime/48736/Sono_Bisque_Doll_wa_Koi_wo_Suru',
