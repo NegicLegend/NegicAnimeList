@@ -1035,6 +1035,10 @@ const musicList = [
       name: 'Bubble',
       path: './music/259.webm'
    },
+   {
+      name: 'Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai',
+      path: './music/260.mp3'
+   },
 ];
 
 export default musicList;
