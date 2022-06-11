@@ -51,12 +51,6 @@
         font-size: 2vw;
     }
 
-    .scroll:hover i {
-        -webkit-transform: translateY(-0.5vw);
-            -ms-transform: translateY(-0.5vw);
-                transform: translateY(-0.5vw);
-    }
-
     /* scroll */
 
     /* number */
@@ -133,32 +127,6 @@
     .menu-header i,
     .toggle i {
         font-size: 2vw;
-    }
-
-    .toggle-volume::before {
-        content: "";
-        position: absolute;
-        top: var(--y);
-        left: var(--x);
-        background-color: #6ab04c;
-        width: 0;
-        height: 0;
-        border-radius: 50%;
-        -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-        -webkit-transition: height 0.35s linear, width 0.35s linear;
-        -o-transition: height 0.35s linear, width 0.35s linear;
-        transition: height 0.35s linear, width 0.35s linear;
-    }
-    
-    .toggle-volume.active::before {
-        background-color: #d63031;
-    }
-    
-    .toggle-volume:hover::before {
-        width: 100vw;
-        height: 100vw;
     }
 
     /* header */

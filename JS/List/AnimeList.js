@@ -1,7 +1,7 @@
 const animeList = [
    {
       animeindex: 1,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/1.jpg',
       link: 'https://myanimelist.net/anime/21/One_Piece',
@@ -12,7 +12,7 @@ const animeList = [
    },
    {
       animeindex: 2,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/2.jpg',
       link: 'https://myanimelist.net/anime/1735/Naruto__Shippuuden',
@@ -23,7 +23,7 @@ const animeList = [
    },
    {
       animeindex: 3,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/3.jpg',
       link: 'https://myanimelist.net/anime/223/Dragon_Ball',
@@ -34,7 +34,7 @@ const animeList = [
    },
    {
       animeindex: 4,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'up',
       img: './img/4.jpg',
       link: 'https://myanimelist.net/anime/235/Detective_Conan?cat=anime',
@@ -45,7 +45,7 @@ const animeList = [
    },
    {
       animeindex: 5,
-      level: 'Legendary',
+      level: 'S-',
       imgP: 'center',
       img: './img/5.jpg',
       link: 'https://myanimelist.net/anime/6702/Fairy_Tail',
@@ -56,7 +56,7 @@ const animeList = [
    },
    {
       animeindex: 6,
-      level: 'Mythical',
+      level: 'S-',
       imgP: 'center',
       img: './img/6.jpg',
       link: 'https://myanimelist.net/anime/550/Yu%E2%98%86Gi%E2%98%86Oh',
@@ -67,18 +67,18 @@ const animeList = [
    },
    {
       animeindex: 7,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/7.jpg',
       link: 'https://myanimelist.net/anime/527/Pokemon',
-      name: 'Pokemon',
+      name: 'Pokemon series',
       tagS: 'Adventure, Psychological, Supernatural, Fantasy, Comedy',
       activeTag: ['Adventure', 'Psychological', 'Supernatural', 'Fantasy', 'Comedy'],
       active: true,
    },
    {
       animeindex: 8,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/8.jpg',
       link: 'https://myanimelist.net/anime/5680/KOn',
@@ -89,7 +89,7 @@ const animeList = [
    },
    {
       animeindex: 9,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/9.jpg',
       link: 'https://myanimelist.net/anime/12189/Hyouka',
@@ -100,7 +100,7 @@ const animeList = [
    },
    {
       animeindex: 10,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'up',
       img: './img/10.jpg',
       link: 'https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood',
@@ -111,7 +111,7 @@ const animeList = [
    },
    {
       animeindex: 11,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/11.jpg',
       link: 'https://myanimelist.net/anime/269/Bleach',
@@ -122,7 +122,7 @@ const animeList = [
    },
    {
       animeindex: 12,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/12.jpg',
       link: 'https://myanimelist.net/anime/13759/Sakurasou_no_Pet_na_Kanojo',
@@ -133,7 +133,7 @@ const animeList = [
    },
    {
       animeindex: 13,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/13.jpg',
       link: 'https://myanimelist.net/anime/33948/Hinako_Note',
@@ -144,7 +144,7 @@ const animeList = [
    },
    {
       animeindex: 14,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/14.jpg',
       link: 'https://myanimelist.net/anime/16592/Danganronpa__Kibou_no_Gakuen_to_Zetsubou_no_Koukousei_The_Animation',
@@ -155,7 +155,7 @@ const animeList = [
    },
    {
       animeindex: 15,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/15.jpg',
       link: 'https://myanimelist.net/anime/33948/Hinako_Note',
@@ -166,7 +166,7 @@ const animeList = [
    },
    {
       animeindex: 16,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/16.jpg',
       link: 'https://myanimelist.net/anime/918/Gintama',
@@ -177,7 +177,7 @@ const animeList = [
    },
    {
       animeindex: 17,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'down',
       img: './img/17.jpg',
       link: 'https://myanimelist.net/anime/11757/Sword_Art_Online',
@@ -188,7 +188,7 @@ const animeList = [
    },
    {
       animeindex: 18,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/18.jpg',
       link: 'https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011',
@@ -199,7 +199,7 @@ const animeList = [
    },
    {
       animeindex: 19,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/19.jpg',
       link: 'https://myanimelist.net/anime/31240/Re_Zero_kara_Hajimeru_Isekai_Seikatsu?suggestion=',
@@ -210,7 +210,7 @@ const animeList = [
    },
    {
       animeindex: 20,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/20.jpg',
       link: 'https://myanimelist.net/anime/36510/Ulysses__Jehanne_Darc_to_Renkin_no_Kishi',
@@ -221,7 +221,7 @@ const animeList = [
    },
    {
       animeindex: 21,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/21.jpg',
       link: 'https://myanimelist.net/anime/32105/Sousei_no_Onmyouji',
@@ -232,7 +232,7 @@ const animeList = [
    },
    {
       animeindex: 22,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'center',
       img: './img/22.jpg',
       link: 'https://myanimelist.net/anime/34420/Isekai_Izakaya__Koto_Aitheria_no_Izakaya_Nobu',
@@ -243,7 +243,7 @@ const animeList = [
    },
    {
       animeindex: 23,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'up',
       img: './img/23.jpg',
       link: 'https://myanimelist.net/anime/14719/JoJo_no_Kimyou_na_Bouken_TV?cat=anime',
@@ -254,7 +254,7 @@ const animeList = [
    },
    {
       animeindex: 24,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/24.jpg',
       link: 'https://myanimelist.net/anime/4224/Toradora',
@@ -265,7 +265,7 @@ const animeList = [
    },
    {
       animeindex: 25,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/25.jpg',
       link: 'https://myanimelist.net/anime/1520/Black_Jack',
@@ -276,7 +276,7 @@ const animeList = [
    },
    {
       animeindex: 26,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/26.jpg',
       link: 'https://myanimelist.net/anime/35756/Comic_Girls',
@@ -287,7 +287,7 @@ const animeList = [
    },
    {
       animeindex: 27,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/27.jpg',
       link: 'https://myanimelist.net/anime/13601/PsychoPass',
@@ -298,7 +298,7 @@ const animeList = [
    },
    {
       animeindex: 28,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/28.jpg',
       link: 'https://myanimelist.net/anime/24439/Kekkai_Sensen',
@@ -309,7 +309,7 @@ const animeList = [
    },
    {
       animeindex: 29,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/29.jpg',
       link: 'https://myanimelist.net/anime/37141/Hataraku_Saibou_TV',
@@ -320,7 +320,7 @@ const animeList = [
    },
    {
       animeindex: 30,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/30.jpg',
       link: 'https://myanimelist.net/anime/33489/Little_Witch_Academia_TV',
@@ -331,7 +331,7 @@ const animeList = [
    },
    {
       animeindex: 31,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'down',
       img: './img/31.jpg',
       link: 'https://myanimelist.net/anime/32093/Tanakakun_wa_Itsumo_Kedaruge',
@@ -342,7 +342,7 @@ const animeList = [
    },
    {
       animeindex: 32,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/32.jpg',
       link: 'https://myanimelist.net/anime/32542/Sakamoto_Desu_ga',
@@ -353,7 +353,7 @@ const animeList = [
    },
    {
       animeindex: 33,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/33.jpg',
       link: 'https://myanimelist.net/anime/30831/Kono_Subarashii_Sekai_ni_Shukufuku_wo',
@@ -364,7 +364,7 @@ const animeList = [
    },
    {
       animeindex: 34,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'center',
       img: './img/34.png',
       link: 'https://myanimelist.net/anime/30123/Akagami_no_Shirayukihime',
@@ -375,7 +375,7 @@ const animeList = [
    },
    {
       animeindex: 35,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/35.jpg',
       link: 'https://myanimelist.net/anime/30276/One_Punch_Man',
@@ -386,7 +386,7 @@ const animeList = [
    },
    {
       animeindex: 36,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'up',
       img: './img/36.jpg',
       link: 'https://myanimelist.net/anime/2966/Ookami_to_Koushinryou',
@@ -397,7 +397,7 @@ const animeList = [
    },
    {
       animeindex: 37,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/37.jpg',
       link: 'https://myanimelist.net/anime/31478/Bungou_Stray_Dogs',
@@ -408,7 +408,7 @@ const animeList = [
    },
    {
       animeindex: 38,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/38.png',
       link: 'https://myanimelist.net/anime/37430/Tensei_shitara_Slime_Datta_Ken',
@@ -419,7 +419,7 @@ const animeList = [
    },
    {
       animeindex: 39,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/39.jpg',
       link: 'https://myanimelist.net/anime/38481/Toaru_Kagaku_no_Railgun_T',
@@ -430,7 +430,7 @@ const animeList = [
    },
    {
       animeindex: 40,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/40.jpg',
       link: 'https://myanimelist.net/anime/18897/Nisekoi',
@@ -441,7 +441,7 @@ const animeList = [
    },
    {
       animeindex: 41,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/41.jpg',
       link: 'https://myanimelist.net/anime/31953/New_Game',
@@ -452,7 +452,7 @@ const animeList = [
    },
    {
       animeindex: 42,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/42.jpg',
       link: 'https://myanimelist.net/anime/29803/Overlord',
@@ -463,7 +463,7 @@ const animeList = [
    },
    {
       animeindex: 43,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'up',
       img: './img/43.jpg',
       link: 'https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch',
@@ -474,7 +474,7 @@ const animeList = [
    },
    {
       animeindex: 44,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/44.jpg',
       link: 'https://myanimelist.net/anime/38759/Sewayaki_Kitsune_no_Senkosan',
@@ -485,7 +485,7 @@ const animeList = [
    },
    {
       animeindex: 45,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/45.jpg',
       link: 'https://myanimelist.net/anime/36475/Sword_Art_Online_Alternative__Gun_Gale_Online',
@@ -496,7 +496,7 @@ const animeList = [
    },
    {
       animeindex: 46,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/46.jpg',
       link: 'https://myanimelist.net/anime/33255/Saiki_Kusuo_no_%CE%A8nan',
@@ -507,7 +507,7 @@ const animeList = [
    },
    {
       animeindex: 47,
-      level: 'Epic',
+      level: 'A',
       imgP: 'center',
       img: './img/47.jpg',
       link: 'https://myanimelist.net/anime/28423/Kyoukai_no_Rinne_TV',
@@ -518,7 +518,7 @@ const animeList = [
    },
    {
       animeindex: 48,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/48.jpg',
       link: 'https://myanimelist.net/anime/1535/Death_Note',
@@ -529,7 +529,7 @@ const animeList = [
    },
    {
       animeindex: 49,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/49.jpg',
       link: 'https://myanimelist.net/anime/22101/Soredemo_Sekai_wa_Utsukushii',
@@ -540,7 +540,7 @@ const animeList = [
    },
    {
       animeindex: 50,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/50.jpg',
       link: 'https://myanimelist.net/anime/34501/Kenka_Banchou_Otome__Girl_Beats_Boys',
@@ -551,7 +551,7 @@ const animeList = [
    },
    {
       animeindex: 51,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/51.jpg',
       link: 'https://myanimelist.net/anime/32615/Youjo_Senki',
@@ -562,7 +562,7 @@ const animeList = [
    },
    {
       animeindex: 52,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/52.jpg',
       link: 'https://myanimelist.net/anime/12291/Acchi_Kocchi',
@@ -573,7 +573,7 @@ const animeList = [
    },
    {
       animeindex: 53,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/53.jpg',
       link: 'https://myanimelist.net/anime/249/InuYasha',
@@ -584,7 +584,7 @@ const animeList = [
    },
    {
       animeindex: 54,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'down',
       img: './img/54.jpg',
       link: 'https://myanimelist.net/anime/18153/Kyoukai_no_Kanata',
@@ -595,7 +595,7 @@ const animeList = [
    },
    {
       animeindex: 55,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/55.jpg',
       link: 'https://myanimelist.net/anime/4081/Natsume_Yuujinchou',
@@ -606,7 +606,7 @@ const animeList = [
    },
    {
       animeindex: 56,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/56.jpg',
       link: 'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
@@ -617,7 +617,7 @@ const animeList = [
    },
    {
       animeindex: 57,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/57.jpg',
       link: 'https://myanimelist.net/anime/38691/Dr_Stone',
@@ -628,7 +628,7 @@ const animeList = [
    },
    {
       animeindex: 58,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/58.jpg',
       link: 'https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba',
@@ -639,7 +639,7 @@ const animeList = [
    },
    {
       animeindex: 59,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/59.jpg',
       link: 'https://myanimelist.net/anime/32182/Mob_Psycho_100',
@@ -650,7 +650,7 @@ const animeList = [
    },
    {
       animeindex: 60,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/60.jpg',
       link: 'https://myanimelist.net/anime/37982/Domestic_na_Kanojo',
@@ -661,7 +661,7 @@ const animeList = [
    },
    {
       animeindex: 61,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/61.jpg',
       link: 'https://myanimelist.net/anime/36882/Arifureta_Shokugyou_de_Sekai_Saikyou',
@@ -672,7 +672,7 @@ const animeList = [
    },
    {
       animeindex: 62,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/62.jpg',
       link: 'https://myanimelist.net/anime/40221/Kami_no_Tou',
@@ -683,7 +683,7 @@ const animeList = [
    },
    {
       animeindex: 63,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/63.jpg',
       link: 'https://myanimelist.net/anime/39547/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru_Kan',
@@ -694,7 +694,7 @@ const animeList = [
    },
    {
       animeindex: 64,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/64.jpg',
       link: 'https://myanimelist.net/anime/39710/Yesterday_wo_Utatte',
@@ -705,7 +705,7 @@ const animeList = [
    },
    {
       animeindex: 65,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/65.jpg',
       link: 'https://myanimelist.net/anime/39292/Princess_Connect_Re_Dive',
@@ -716,7 +716,7 @@ const animeList = [
    },
    {
       animeindex: 66,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'center',
       img: './img/66.jpg',
       link: 'https://myanimelist.net/anime/37349/Goblin_Slayer',
@@ -727,7 +727,7 @@ const animeList = [
    },
    {
       animeindex: 67,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/67.jpg',
       link: 'https://myanimelist.net/anime/35790/Tate_no_Yuusha_no_Nariagari',
@@ -738,7 +738,7 @@ const animeList = [
    },
    {
       animeindex: 68,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'down',
       img: './img/68.jpg',
       link: 'https://myanimelist.net/anime/37447/Karakuri_Circus_TV',
@@ -749,7 +749,7 @@ const animeList = [
    },
    {
       animeindex: 69,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/69.jpg',
       link: 'https://myanimelist.net/anime/22199/Akame_ga_Kill',
@@ -760,7 +760,7 @@ const animeList = [
    },
    {
       animeindex: 70,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/70.jpg',
       link: 'https://myanimelist.net/anime/31442/Musaigen_no_Phantom_World',
@@ -771,7 +771,7 @@ const animeList = [
    },
    {
       animeindex: 71,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/71.png',
       link: 'https://myanimelist.net/anime/34934/Koi_to_Uso',
@@ -782,7 +782,7 @@ const animeList = [
    },
    {
       animeindex: 72,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/72.jpg',
       link: 'https://myanimelist.net/anime/28623/Koutetsujou_no_Kabaneri',
@@ -793,7 +793,7 @@ const animeList = [
    },
    {
       animeindex: 73,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/73.jpg',
       link: 'https://myanimelist.net/anime/6574/Hanamaru_Youchien',
@@ -804,7 +804,7 @@ const animeList = [
    },
    {
       animeindex: 74,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/74.jpg',
       link: 'https://myanimelist.net/anime/19383/Yami_Shibai',
@@ -815,7 +815,7 @@ const animeList = [
    },
    {
       animeindex: 75,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/75.jpg',
       link: 'https://myanimelist.net/anime/9253/Steins_Gate',
@@ -826,7 +826,7 @@ const animeList = [
    },
    {
       animeindex: 76,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/76.jpg',
       link: 'https://myanimelist.net/anime/1606/Kekkaishi_TV',
@@ -837,7 +837,7 @@ const animeList = [
    },
    {
       animeindex: 77,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/77.jpg',
       link: 'https://myanimelist.net/anime/33012/Island',
@@ -848,7 +848,7 @@ const animeList = [
    },
    {
       animeindex: 78,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/78.jpg',
       link: 'https://myanimelist.net/anime/38992/Rikei_ga_Koi_ni_Ochita_no_de_Shoumei_shitemita',
@@ -859,7 +859,7 @@ const animeList = [
    },
    {
       animeindex: 79,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'down',
       img: './img/79.jpg',
       link: 'https://myanimelist.net/anime/35247/Owarimonogatari_2nd_Season',
@@ -870,7 +870,7 @@ const animeList = [
    },
    {
       animeindex: 80,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/80.jpg',
       link: 'https://myanimelist.net/anime/30015/ReLIFE',
@@ -881,7 +881,7 @@ const animeList = [
    },
    {
       animeindex: 81,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/81.jpg',
       link: 'https://myanimelist.net/anime/34798/Yuru_Camp%E2%96%B3',
@@ -892,7 +892,7 @@ const animeList = [
    },
    {
       animeindex: 82,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/82.jpg',
       link: 'https://myanimelist.net/anime/35062/Mahoutsukai_no_Yome',
@@ -903,7 +903,7 @@ const animeList = [
    },
    {
       animeindex: 83,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/83.jpg',
       link: 'https://myanimelist.net/anime/35860/Karakai_Jouzu_no_Takagisan',
@@ -914,7 +914,7 @@ const animeList = [
    },
    {
       animeindex: 84,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'down',
       img: './img/84.jpg',
       link: 'https://myanimelist.net/manga/70345/Grand_Blue',
@@ -925,7 +925,7 @@ const animeList = [
    },
    {
       animeindex: 85,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/85.jpg',
       link: 'https://myanimelist.net/anime/33352/Violet_Evergarden',
@@ -936,7 +936,7 @@ const animeList = [
    },
    {
       animeindex: 86,
-      level: 'Legendary',
+      level: 'A-',
       imgP: 'center',
       img: './img/86.jpg',
       link: 'https://myanimelist.net/anime/37450/Seishun_Buta_Yarou_wa_Bunny_Girl_Senpai_no_Yume_wo_Minai',
@@ -947,7 +947,7 @@ const animeList = [
    },
    {
       animeindex: 87,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/87.jpg',
       link: 'https://myanimelist.net/anime/21273/Gochuumon_wa_Usagi_Desu_ka',
@@ -958,7 +958,7 @@ const animeList = [
    },
    {
       animeindex: 88,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/88.jpg',
       link: 'https://myanimelist.net/anime/21273/Gochuumon_wa_Usagi_Desu_ka',
@@ -969,7 +969,7 @@ const animeList = [
    },
    {
       animeindex: 89,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/89.jpg',
       link: 'https://myanimelist.net/anime/34902/Tsurezure_Children',
@@ -980,7 +980,7 @@ const animeList = [
    },
    {
       animeindex: 90,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/90.jpg',
       link: 'https://myanimelist.net/anime/28999/Charlotte',
@@ -991,7 +991,7 @@ const animeList = [
    },
    {
       animeindex: 91,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/91.jpg',
       link: 'https://myanimelist.net/anime/23755/Nanatsu_no_Taizai',
@@ -1002,7 +1002,7 @@ const animeList = [
    },
    {
       animeindex: 92,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/92.jpg',
       link: 'https://myanimelist.net/anime/33487/Masamunekun_no_Revenge',
@@ -1013,7 +1013,7 @@ const animeList = [
    },
    {
       animeindex: 93,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/93.jpg',
       link: 'https://myanimelist.net/anime/18095/Nourin',
@@ -1024,7 +1024,7 @@ const animeList = [
    },
    {
       animeindex: 94,
-      level: 'Legendary',
+      level: 'A-',
       imgP: 'center',
       img: './img/94.jpg',
       link: 'https://myanimelist.net/anime/15583/Date_A_Live',
@@ -1035,7 +1035,7 @@ const animeList = [
    },
    {
       animeindex: 95,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/95.jpg',
       link: 'https://myanimelist.net/anime/15583/Date_A_Live',
@@ -1046,7 +1046,7 @@ const animeList = [
    },
    {
       animeindex: 96,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/96.jpg',
       link: 'https://myanimelist.net/anime/34262/Oushitsu_Kyoushi_Heine',
@@ -1057,7 +1057,7 @@ const animeList = [
    },
    {
       animeindex: 97,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/97.jpg',
       link: 'https://myanimelist.net/anime/20507/Noragami',
@@ -1068,7 +1068,7 @@ const animeList = [
    },
    {
       animeindex: 98,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/98.jpg',
       link: 'https://myanimelist.net/anime/34933/Kakegurui',
@@ -1079,7 +1079,7 @@ const animeList = [
    },
    {
       animeindex: 99,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/99.jpg',
       link: 'https://myanimelist.net/anime/34572/Black_Clover',
@@ -1090,7 +1090,7 @@ const animeList = [
    },
    {
       animeindex: 100,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/100.jpg',
       link: 'https://myanimelist.net/anime/35994/Satsuriku_no_Tenshi',
@@ -1101,7 +1101,7 @@ const animeList = [
    },
    {
       animeindex: 101,
-      level: 'Legendary',
+      level: 'A-',
       imgP: 'up',
       img: './img/101.jpg',
       link: 'https://myanimelist.net/anime/28677/Yamadakun_to_7nin_no_Majo_TV',
@@ -1112,7 +1112,7 @@ const animeList = [
    },
    {
       animeindex: 102,
-      level: 'Legendary',
+      level: 'S-',
       imgP: 'up',
       img: './img/102.jpg',
       link: 'https://myanimelist.net/anime/24833/Ansatsu_Kyoushitsu',
@@ -1123,7 +1123,7 @@ const animeList = [
    },
    {
       animeindex: 103,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/103.jpg',
       link: 'https://myanimelist.net/anime/19815/No_Game_No_Life',
@@ -1134,7 +1134,7 @@ const animeList = [
    },
    {
       animeindex: 104,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/104.jpg',
       link: 'https://myanimelist.net/anime/22319/Tokyo_Ghoul',
@@ -1145,7 +1145,7 @@ const animeList = [
    },
    {
       animeindex: 105,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/105.png',
       link: 'https://myanimelist.net/anime/31229/Servamp',
@@ -1156,7 +1156,7 @@ const animeList = [
    },
    {
       animeindex: 106,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/106.jpg',
       link: 'https://myanimelist.net/anime/34618/Blend_S',
@@ -1167,7 +1167,7 @@ const animeList = [
    },
    {
       animeindex: 107,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/107.jpg',
       link: 'https://myanimelist.net/anime/27775/Plastic_Memories',
@@ -1178,7 +1178,7 @@ const animeList = [
    },
    {
       animeindex: 108,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/108.jpg',
       link: 'https://myanimelist.net/anime/33506/Ao_no_Exorcist__Kyoto_Fujououhen',
@@ -1189,7 +1189,7 @@ const animeList = [
    },
    {
       animeindex: 109,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/109.jpg',
       link: 'https://myanimelist.net/anime/37033/Emiyasan_Chi_no_Kyou_no_Gohan',
@@ -1200,7 +1200,7 @@ const animeList = [
    },
    {
       animeindex: 110,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'up',
       img: './img/110.jpg',
       link: 'https://myanimelist.net/anime/10087/Fate_Zero',
@@ -1211,7 +1211,7 @@ const animeList = [
    },
    {
       animeindex: 111,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/111.jpg',
       link: 'https://myanimelist.net/anime/35849/Darling_in_the_FranXX',
@@ -1222,7 +1222,7 @@ const animeList = [
    },
    {
       animeindex: 112,
-      level: 'Legendary',
+      level: 'S-',
       imgP: 'center',
       img: './img/112.jpg',
       link: 'https://myanimelist.net/anime/37521/Vinland_Saga',
@@ -1233,7 +1233,7 @@ const animeList = [
    },
    {
       animeindex: 113,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/113.jpg',
       link: 'https://myanimelist.net/anime/33051/Mobile_Suit_Gundam__Iron-Blooded_Orphans_2nd_Season',
@@ -1244,7 +1244,7 @@ const animeList = [
    },
    {
       animeindex: 114,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/114.jpg',
       link: 'https://myanimelist.net/anime/37520/Dororo',
@@ -1255,7 +1255,7 @@ const animeList = [
    },
    {
       animeindex: 115,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/115.jpg',
       link: 'https://myanimelist.net/anime/31964/Boku_no_Hero_Academia?suggestion=',
@@ -1266,7 +1266,7 @@ const animeList = [
    },
    {
       animeindex: 116,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'up',
       img: './img/116.jpg',
       link: 'https://myanimelist.net/anime/37999/Kaguyasama_wa_Kokurasetai__Tensaitachi_no_Renai_Zunousen',
@@ -1277,7 +1277,7 @@ const animeList = [
    },
    {
       animeindex: 117,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/117.jpg',
       link: 'https://myanimelist.net/anime/25099/Ore_ga_Ojousama_Gakkou_ni_Shomin_Sample_Toshite_Gets%E2%99%A5Sareta_Ken',
@@ -1288,7 +1288,7 @@ const animeList = [
    },
    {
       animeindex: 118,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/118.jpg',
       link: 'https://myanimelist.net/anime/15315/Mondaijitachi_ga_Isekai_kara_Kuru_Sou_Desu_yo',
@@ -1299,7 +1299,7 @@ const animeList = [
    },
    {
       animeindex: 119,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/119.jpg',
       link: 'https://myanimelist.net/anime/32951/Rokudenashi_Majutsu_Koushi_to_Akashic_Records',
@@ -1310,7 +1310,7 @@ const animeList = [
    },
    {
       animeindex: 120,
-      level: 'Legendary',
+      level: 'B',
       imgP: 'center',
       img: './img/120.jpg',
       link: 'https://myanimelist.net/anime/32901/Eromangasensei',
@@ -1321,7 +1321,7 @@ const animeList = [
    },
    {
       animeindex: 121,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/121.jpg',
       link: 'https://myanimelist.net/anime/36632/Ore_ga_Suki_nano_wa_Imouto_dakedo_Imouto_ja_Nai',
@@ -1332,7 +1332,7 @@ const animeList = [
    },
    {
       animeindex: 122,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/122.jpg',
       link: 'https://myanimelist.net/anime/37475/Kishuku_Gakkou_no_Juliet',
@@ -1343,7 +1343,7 @@ const animeList = [
    },
    {
       animeindex: 123,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/123.jpg',
       link: 'https://myanimelist.net/anime/30296/Rakudai_Kishi_no_Cavalry',
@@ -1354,7 +1354,7 @@ const animeList = [
    },
    {
       animeindex: 124,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/124.jpg',
       link: 'https://myanimelist.net/anime/35905/Ryuuou_no_Oshigoto',
@@ -1365,7 +1365,7 @@ const animeList = [
    },
    {
       animeindex: 125,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/125.jpg',
       link: 'https://myanimelist.net/anime/35507/Youkoso_Jitsuryoku_Shijou_Shugi_no_Kyoushitsu_e_TV',
@@ -1376,7 +1376,7 @@ const animeList = [
    },
    {
       animeindex: 126,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/126.jpg',
       link: 'https://myanimelist.net/anime/38790/Itai_no_wa_Iya_nano_de_Bougyoryoku_ni_Kyokufuri_Shitai_to_Omoimasu',
@@ -1387,7 +1387,7 @@ const animeList = [
    },
    {
       animeindex: 127,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/127.jpg',
       link: 'https://myanimelist.net/anime/4898/Kuroshitsuji',
@@ -1398,7 +1398,7 @@ const animeList = [
    },
    {
       animeindex: 128,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/128.jpg',
       link: 'https://myanimelist.net/anime/28171/Shokugeki_no_Souma',
@@ -1409,7 +1409,7 @@ const animeList = [
    },
    {
       animeindex: 129,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/129.jpg',
       link: 'https://myanimelist.net/anime/20785/Mahouka_Koukou_no_Rettousei',
@@ -1420,7 +1420,7 @@ const animeList = [
    },
    {
       animeindex: 130,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/130.jpg',
       link: 'https://myanimelist.net/anime/31637/Gate__Jieitai_Kanochi_nite_Kaku_Tatakaeri_Part_2',
@@ -1431,7 +1431,7 @@ const animeList = [
    },
    {
       animeindex: 131,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/131.jpg',
       link: 'https://myanimelist.net/anime/34280/Gamers',
@@ -1442,7 +1442,7 @@ const animeList = [
    },
    {
       animeindex: 132,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/132.jpg',
       link: 'https://myanimelist.net/anime/38483/Ore_wo_Suki_nano_wa_Omae_dake_ka_yo',
@@ -1453,7 +1453,7 @@ const animeList = [
    },
    {
       animeindex: 133,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/133.jpg',
       link: 'https://myanimelist.net/anime/34443/Baki',
@@ -1464,7 +1464,7 @@ const animeList = [
    },
    {
       animeindex: 134,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/134.jpg',
       link: 'https://myanimelist.net/anime/29854/Ushio_to_Tora_TV',
@@ -1475,7 +1475,7 @@ const animeList = [
    },
    {
       animeindex: 135,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/135.jpg',
       link: 'https://myanimelist.net/anime/40392/Runway_de_Waratte',
@@ -1486,7 +1486,7 @@ const animeList = [
    },
    {
       animeindex: 136,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'down',
       img: './img/136.jpg',
       link: 'https://myanimelist.net/anime/40046/Id_Invaded',
@@ -1497,7 +1497,7 @@ const animeList = [
    },
    {
       animeindex: 137,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/137.jpg',
       link: 'https://myanimelist.net/anime/38924/Nekopara',
@@ -1508,7 +1508,7 @@ const animeList = [
    },
    {
       animeindex: 138,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/138.jpg',
       link: 'https://myanimelist.net/anime/38476/Heya_Camp%E2%96%B3',
@@ -1519,7 +1519,7 @@ const animeList = [
    },
    {
       animeindex: 139,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/139.jpg',
       link: 'https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun',
@@ -1530,7 +1530,7 @@ const animeList = [
    },
    {
       animeindex: 140,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/140.jpg',
       link: 'https://myanimelist.net/anime/39324/Uchi_no_Ko_no_Tame_naraba_Ore_wa_Moshikashitara_Maou_mo_Taoseru_kamo_Shirenai',
@@ -1541,7 +1541,7 @@ const animeList = [
    },
    {
       animeindex: 141,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/141.jpg',
       link: 'https://myanimelist.net/anime/41226/Uzaki-chan_wa_Asobitai',
@@ -1552,7 +1552,7 @@ const animeList = [
    },
    {
       animeindex: 142,
-      level: 'Legendary',
+      level: 'A-',
       imgP: 'center',
       img: './img/142.jpg',
       link: 'https://myanimelist.net/anime/40056/Deca-Dence',
@@ -1563,7 +1563,7 @@ const animeList = [
    },
    {
       animeindex: 143,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/143.jpg',
       link: 'https://myanimelist.net/anime/28121/Dungeon_ni_Deai_wo_Motomeru_no_wa_Machigatteiru_Darou_ka',
@@ -1574,7 +1574,7 @@ const animeList = [
    },
    {
       animeindex: 144,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/144.jpg',
       link: 'https://myanimelist.net/anime/11111/Another',
@@ -1585,7 +1585,7 @@ const animeList = [
    },
    {
       animeindex: 145,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/145.jpg',
       link: 'https://myanimelist.net/anime/40571/Majo_no_Tabitabi',
@@ -1596,7 +1596,7 @@ const animeList = [
    },
    {
       animeindex: 146,
-      level: 'Legendary',
+      level: 'S-',
       imgP: 'center',
       img: './img/146.jpg',
       link: 'https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV',
@@ -1607,7 +1607,7 @@ const animeList = [
    },
    {
       animeindex: 147,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/147.jpg',
       link: 'https://myanimelist.net/anime/39017/Kyokou_Suiri',
@@ -1618,7 +1618,7 @@ const animeList = [
    },
    {
       animeindex: 148,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/148.jpg',
       link: 'https://myanimelist.net/anime/31764/Nejimaki_Seirei_Senki__Tenkyou_no_Alderamin',
@@ -1629,7 +1629,7 @@ const animeList = [
    },
    {
       animeindex: 149,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/149.jpg',
       link: 'https://myanimelist.net/anime/41389/Tonikaku_Kawaii',
@@ -1640,7 +1640,7 @@ const animeList = [
    },
    {
       animeindex: 150,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/150.jpg',
       link: 'https://myanimelist.net/anime/11843/Danshi_Koukousei_no_Nichijou',
@@ -1651,7 +1651,7 @@ const animeList = [
    },
    {
       animeindex: 151,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/151.jpg',
       link: 'https://myanimelist.net/anime/39730/Houkago_Teibou_Nisshi',
@@ -1662,7 +1662,7 @@ const animeList = [
    },
    {
       animeindex: 152,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/152.jpg',
       link: 'https://myanimelist.net/anime/31952/Kono_Bijutsubu_ni_wa_Mondai_ga_Aru',
@@ -1673,7 +1673,7 @@ const animeList = [
    },
    {
       animeindex: 153,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'up',
       img: './img/153.jpg',
       link: 'https://myanimelist.net/anime/34012/Isekai_Shokudou',
@@ -1684,7 +1684,7 @@ const animeList = [
    },
    {
       animeindex: 154,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/154.jpg',
       link: 'https://myanimelist.net/anime/38787/Senryuu_Shoujo',
@@ -1695,7 +1695,7 @@ const animeList = [
    },
    {
       animeindex: 155,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/155.jpg',
       link: 'https://myanimelist.net/anime/37587/Lapis_Re_LiGHTs',
@@ -1706,7 +1706,7 @@ const animeList = [
    },
    {
       animeindex: 156,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/156.jpg',
       link: 'https://myanimelist.net/anime/37806/Gunjou_no_Magmell',
@@ -1717,7 +1717,7 @@ const animeList = [
    },
    {
       animeindex: 157,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/157.jpg',
       link: 'https://myanimelist.net/anime/38656/Darwins_Game',
@@ -1728,7 +1728,7 @@ const animeList = [
    },
    {
       animeindex: 158,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/158.jpg',
       link: 'https://myanimelist.net/anime/42897/Horimiya',
@@ -1739,7 +1739,7 @@ const animeList = [
    },
    {
       animeindex: 159,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/159.jpg',
       link: 'https://myanimelist.net/anime/31109/Hatsukoi_Monster',
@@ -1750,7 +1750,7 @@ const animeList = [
    },
    {
       animeindex: 160,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/160.jpg',
       link: 'https://myanimelist.net/anime/34620/Kono_Yo_no_Hate_de_Koi_wo_Utau_Shoujo_YU-NO',
@@ -1761,7 +1761,7 @@ const animeList = [
    },
    {
       animeindex: 161,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/161.jpg',
       link: 'https://myanimelist.net/anime/30749/Saijaku_Muhai_no_Bahamut',
@@ -1772,7 +1772,7 @@ const animeList = [
    },
    {
       animeindex: 162,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/162.jpg',
       link: 'https://myanimelist.net/anime/36754/Kakuriyo_no_Yadomeshi',
@@ -1783,7 +1783,7 @@ const animeList = [
    },
    {
       animeindex: 163,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/163.jpg',
       link: 'https://myanimelist.net/anime/43299/Wonder_Egg_Priority',
@@ -1794,7 +1794,7 @@ const animeList = [
    },
    {
       animeindex: 164,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/164.jpg',
       link: 'https://myanimelist.net/anime/41392/Urasekai_Picnic',
@@ -1805,7 +1805,7 @@ const animeList = [
    },
    {
       animeindex: 165,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/165.jpg',
       link: 'https://myanimelist.net/anime/43692/Gokushufudou',
@@ -1816,7 +1816,7 @@ const animeList = [
    },
    {
       animeindex: 166,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/166.jpg',
       link: 'https://www.imdb.com/title/tt14069590/',
@@ -1827,7 +1827,7 @@ const animeList = [
    },
    {
       animeindex: 167,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/167.jpg',
       link: 'https://myanimelist.net/anime/37171/Asobi_Asobase',
@@ -1838,7 +1838,7 @@ const animeList = [
    },
    {
       animeindex: 168,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/168.jpg',
       link: 'https://myanimelist.net/anime/21327/Isshuukan_Friends',
@@ -1849,7 +1849,7 @@ const animeList = [
    },
    {
       animeindex: 169,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/169.jpg',
       link: 'https://myanimelist.net/anime/39326/Kawaikereba_Hentai_demo_Suki_ni_Natte_Kuremasu_ka',
@@ -1860,7 +1860,7 @@ const animeList = [
    },
    {
       animeindex: 170,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/170.jpg',
       link: 'https://myanimelist.net/anime/40685/Super_Cub',
@@ -1871,7 +1871,7 @@ const animeList = [
    },
    {
       animeindex: 171,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/171.jpg',
       link: 'https://myanimelist.net/anime/41457/86',
@@ -1882,7 +1882,7 @@ const animeList = [
    },
    {
       animeindex: 172,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/172.jpg',
       link: 'https://myanimelist.net/anime/46095/Vivy__Fluorite_Eyes_Song',
@@ -1893,7 +1893,7 @@ const animeList = [
    },
    {
       animeindex: 173,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'up',
       img: './img/173.jpg',
       link: 'https://myanimelist.net/anime/42249/Tokyo_Revengers',
@@ -1904,7 +1904,7 @@ const animeList = [
    },
    {
       animeindex: 174,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/174.jpg',
       link: 'https://myanimelist.net/anime/40911/Yuukoku_no_Moriarty',
@@ -1915,7 +1915,7 @@ const animeList = [
    },
    {
       animeindex: 175,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/175.jpg',
       link: 'https://myanimelist.net/anime/35484/Osake_wa_Fuufu_ni_Natte_kara',
@@ -1926,7 +1926,7 @@ const animeList = [
    },
    {
       animeindex: 176,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/176.jpg',
       link: 'https://myanimelist.net/anime/35413/Imouto_sae_Ireba_Ii',
@@ -1937,7 +1937,7 @@ const animeList = [
    },
    {
       animeindex: 177,
-      level: 'Legendary',
+      level: 'A-',
       imgP: 'up',
       img: './img/177.jpg',
       link: 'https://myanimelist.net/anime/44942/Shuumatsu_no_Walk%C3%BCre',
@@ -1948,7 +1948,7 @@ const animeList = [
    },
    {
       animeindex: 178,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/178.jpg',
       link: 'https://myanimelist.net/anime/33731/Gabriel_DropOut',
@@ -1959,7 +1959,7 @@ const animeList = [
    },
    {
       animeindex: 179,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'down',
       img: './img/179.jpg',
       link: 'https://myanimelist.net/anime/17549/Non_Non_Biyori',
@@ -1970,7 +1970,7 @@ const animeList = [
    },
    {
       animeindex: 180,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/180.jpg',
       link: 'https://myanimelist.net/anime/40904/Bokutachi_no_Remake',
@@ -1981,7 +1981,7 @@ const animeList = [
    },
    {
       animeindex: 181,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'down',
       img: './img/181.jpg',
       link: 'https://myanimelist.net/anime/46093/Shiroi_Suna_no_Aquatope',
@@ -1992,7 +1992,7 @@ const animeList = [
    },
    {
       animeindex: 182,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/182.jpg',
       link: 'https://myanimelist.net/anime/47257/Shinigami_Bocchan_to_Kuro_Maid',
@@ -2003,7 +2003,7 @@ const animeList = [
    },
    {
       animeindex: 183,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/183.jpg',
       link: 'https://myanimelist.net/anime/23283/Zankyou_no_Terror',
@@ -2014,7 +2014,7 @@ const animeList = [
    },
    {
       animeindex: 184,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/184.jpg',
       link: 'https://myanimelist.net/anime/48753/Jahy-sama_wa_Kujikenai',
@@ -2025,7 +2025,7 @@ const animeList = [
    },
    {
       animeindex: 185,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/185.jpg',
       link: 'https://myanimelist.net/anime/32281/Kimi_no_Na_wa',
@@ -2036,7 +2036,7 @@ const animeList = [
    },
    {
       animeindex: 186,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/186.jpg',
       link: 'https://myanimelist.net/anime/38826/Tenki_no_Ko',
@@ -2047,7 +2047,7 @@ const animeList = [
    },
    {
       animeindex: 187,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'center',
       img: './img/187.jpg',
       link: 'https://myanimelist.net/anime/40787/Josee_to_Tora_to_Sakana-tachi',
@@ -2058,7 +2058,7 @@ const animeList = [
    },
    {
       animeindex: 188,
-      level: 'Mythical',
+      level: 'S-',
       imgP: 'center',
       img: './img/188.jpg',
       link: 'https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi',
@@ -2069,7 +2069,7 @@ const animeList = [
    },
    {
       animeindex: 189,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/189.jpg',
       link: 'https://myanimelist.net/anime/523/Tonari_no_Totoro',
@@ -2080,7 +2080,7 @@ const animeList = [
    },
    {
       animeindex: 190,
-      level: 'Legendary',
+      level: 'A-',
       imgP: 'center',
       img: './img/190.jpg',
       link: 'https://myanimelist.net/anime/34498/Uchiage_Hanabi_Shita_kara_Miru_ka_Yoko_kara_Miru_ka',
@@ -2091,7 +2091,7 @@ const animeList = [
    },
    {
       animeindex: 191,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'down',
       img: './img/191.jpg',
       link: 'https://myanimelist.net/anime/1689/Byousoku_5_Centimeter',
@@ -2102,7 +2102,7 @@ const animeList = [
    },
    {
       animeindex: 192,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'down',
       img: './img/192.jpg',
       link: 'https://myanimelist.net/anime/9760/Hoshi_wo_Ou_Kodomo',
@@ -2113,7 +2113,7 @@ const animeList = [
    },
    {
       animeindex: 193,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/193.jpg',
       link: 'https://myanimelist.net/anime/36098/Kimi_no_Suizou_wo_Tabetai',
@@ -2124,7 +2124,7 @@ const animeList = [
    },
    {
       animeindex: 194,
-      level: 'Mythical',
+      level: 'S-',
       imgP: 'center',
       img: './img/194.jpg',
       link: 'https://myanimelist.net/anime/28851/Koe_no_Katachi',
@@ -2135,7 +2135,7 @@ const animeList = [
    },
    {
       animeindex: 195,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/195.jpg',
       link: 'https://myanimelist.net/anime/28725/Kokoro_ga_Sakebitagatterunda',
@@ -2146,7 +2146,7 @@ const animeList = [
    },
    {
       animeindex: 196,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/196.jpg',
       link: 'https://myanimelist.net/anime/10408/Hotarubi_no_Mori_e',
@@ -2157,7 +2157,7 @@ const animeList = [
    },
    {
       animeindex: 197,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/197.jpg',
       link: 'https://myanimelist.net/anime/16782/Kotonoha_no_Niwa',
@@ -2168,7 +2168,7 @@ const animeList = [
    },
    {
       animeindex: 198,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/198.jpg',
       link: 'https://myanimelist.net/anime/16417/Tamako_Market',
@@ -2179,7 +2179,7 @@ const animeList = [
    },
    {
       animeindex: 199,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/199.jpg',
       link: 'https://myanimelist.net/anime/23277/Saenai_Heroine_no_Sodatekata',
@@ -2190,7 +2190,7 @@ const animeList = [
    },
    {
       animeindex: 200,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/200.jpg',
       link: 'https://myanimelist.net/anime/25013/Akatsuki_no_Yona',
@@ -2201,7 +2201,7 @@ const animeList = [
    },
    {
       animeindex: 201,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/201.jpg',
       link: 'https://myanimelist.net/anime/26243/Owari_no_Seraph',
@@ -2212,7 +2212,7 @@ const animeList = [
    },
    {
       animeindex: 202,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'center',
       img: './img/202.jpg',
       link: 'https://myanimelist.net/anime/16662/Kaze_Tachinu',
@@ -2223,7 +2223,7 @@ const animeList = [
    },
    {
       animeindex: 203,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/203.jpg',
       link: 'https://myanimelist.net/anime/40716/Kakushigoto_TV',
@@ -2234,7 +2234,7 @@ const animeList = [
    },
    {
       animeindex: 204,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/204.jpeg',
       link: 'https://myanimelist.net/anime/36108/Takunomi',
@@ -2245,7 +2245,7 @@ const animeList = [
    },
    {
       animeindex: 205,
-      level: 'Legendary',
+      level: 'S-',
       imgP: 'up',
       img: './img/205.jpg',
       link: 'https://myanimelist.net/anime/34599/Made_in_Abyss',
@@ -2256,7 +2256,7 @@ const animeList = [
    },
    {
       animeindex: 206,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/206.jpg',
       link: 'https://myanimelist.net/anime/34102/Sakurada_Reset',
@@ -2267,7 +2267,7 @@ const animeList = [
    },
    {
       animeindex: 207,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/207.jpg',
       link: 'https://myanimelist.net/anime/48471/Tsuki_to_Laika_to_Nosferatu',
@@ -2278,7 +2278,7 @@ const animeList = [
    },
    {
       animeindex: 208,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/208.jpg',
       link: 'https://myanimelist.net/anime/46352/Blue_Period',
@@ -2289,7 +2289,7 @@ const animeList = [
    },
    {
       animeindex: 209,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/209.jpg',
       link: 'https://myanimelist.net/anime/41833/Kyuuketsuki_Sugu_Shinu',
@@ -2300,7 +2300,7 @@ const animeList = [
    },
    {
       animeindex: 210,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/210.jpg',
       link: 'https://myanimelist.net/anime/45055/Taishou_Otome_Otogibanashi',
@@ -2311,7 +2311,7 @@ const animeList = [
    },
    {
       animeindex: 211,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'down',
       img: './img/211.jpg',
       link: 'https://myanimelist.net/anime/48926/Komi-san_wa_Comyushou_desu',
@@ -2322,7 +2322,7 @@ const animeList = [
    },
    {
       animeindex: 212,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/212.jpg',
       link: 'https://myanimelist.net/anime/42351/Senpai_ga_Uzai_Kouhai_no_Hanashi',
@@ -2333,7 +2333,7 @@ const animeList = [
    },
    {
       animeindex: 213,
-      level: 'Epic',
+      level: 'B',
       imgP: 'down',
       img: './img/213.jpg',
       link: 'https://myanimelist.net/anime/20541/Mikakunin_de_Shinkoukei',
@@ -2344,7 +2344,7 @@ const animeList = [
    },
    {
       animeindex: 214,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/214.jpg',
       link: 'https://myanimelist.net/anime/36793/3D_Kanojo__Real_Girl',
@@ -2355,7 +2355,7 @@ const animeList = [
    },
    {
       animeindex: 215,
-      level: 'Mythical',
+      level: 'S-',
       imgP: 'up',
       img: './img/215.jpg',
       link: 'https://myanimelist.net/anime/41025/Fumetsu_no_Anata_e',
@@ -2366,7 +2366,7 @@ const animeList = [
    },
    {
       animeindex: 216,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/216.jpg',
       link: 'https://myanimelist.net/anime/11499/Sankarea',
@@ -2377,7 +2377,7 @@ const animeList = [
    },
    {
       animeindex: 217,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/217.jpg',
       link: 'https://myanimelist.net/anime/431/Howl_no_Ugoku_Shiro',
@@ -2388,7 +2388,7 @@ const animeList = [
    },
    {
       animeindex: 218,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/218.jpg',
       link: 'https://myanimelist.net/anime/30187/Sakurako-san_no_Ashimoto_ni_wa_Shitai_ga_Umatteiru',
@@ -2399,7 +2399,7 @@ const animeList = [
    },
    {
       animeindex: 219,
-      level: 'Legendary',
+      level: 'A-',
       imgP: 'center',
       img: './img/219.jpg',
       link: 'https://myanimelist.net/anime/12355/Ookami_Kodomo_no_Ame_to_Yuki',
@@ -2410,7 +2410,7 @@ const animeList = [
    },
    {
       animeindex: 220,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/220.jpg',
       link: 'https://myanimelist.net/anime/486/Kino_no_Tabi__The_Beautiful_World',
@@ -2421,7 +2421,7 @@ const animeList = [
    },
    {
       animeindex: 221,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/221.jpg',
       link: 'https://myanimelist.net/anime/11013/Inu_x_Boku_SS',
@@ -2432,7 +2432,7 @@ const animeList = [
    },
    {
       animeindex: 222,
-      level: 'Mythical',
+      level: 'S',
       imgP: 'up',
       img: './img/222.jpg',
       link: 'https://myanimelist.net/anime/35120/Devilman__Crybaby',
@@ -2443,7 +2443,7 @@ const animeList = [
    },
    {
       animeindex: 223,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/223.jpg',
       link: 'https://myanimelist.net/anime/45425/Slow_Loop',
@@ -2454,7 +2454,7 @@ const animeList = [
    },
    {
       animeindex: 224,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/224.jpg',
       link: 'https://myanimelist.net/anime/48736/Sono_Bisque_Doll_wa_Koi_wo_Suru',
@@ -2465,7 +2465,7 @@ const animeList = [
    },
    {
       animeindex: 225,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/225.jpg',
       link: 'https://myanimelist.net/anime/48553/Akebi-chan_no_Sailor-fuku',
@@ -2476,7 +2476,7 @@ const animeList = [
    },
    {
       animeindex: 226,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/226.jpg',
       link: 'https://myanimelist.net/anime/44961/Platinum_End',
@@ -2487,7 +2487,7 @@ const animeList = [
    },
    {
       animeindex: 227,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/227.jpg',
       link: 'https://myanimelist.net/anime/48414/Sabikui_Bisco',
@@ -2498,7 +2498,7 @@ const animeList = [
    },
    {
       animeindex: 228,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/228.jpg',
       link: 'https://myanimelist.net/anime/48997/Fantasy_Bishoujo_Juniku_Ojisan_to',
@@ -2509,7 +2509,7 @@ const animeList = [
    },
    {
       animeindex: 229,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'center',
       img: './img/229.jpg',
       link: 'https://myanimelist.net/anime/30014/Momokuri',
@@ -2520,7 +2520,7 @@ const animeList = [
    },
    {
       animeindex: 230,
-      level: 'Legnedary',
+      level: 'A+',
       imgP: 'up',
       img: './img/230.jpg',
       link: 'https://myanimelist.net/anime/48580/Vanitas_no_Karte',
@@ -2531,7 +2531,7 @@ const animeList = [
    },
    {
       animeindex: 231,
-      level: 'Mythical',
+      level: 'S+',
       imgP: 'up',
       img: './img/231.jpg',
       link: 'https://myanimelist.net/anime/12431/Uchuu_Kyoudai',
@@ -2542,7 +2542,7 @@ const animeList = [
    },
    {
       animeindex: 232,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/232.jpg',
       link: 'https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon',
@@ -2553,7 +2553,7 @@ const animeList = [
    },
    {
       animeindex: 233,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/233.jpg',
       link: 'https://myanimelist.net/anime/35968/Wotaku_ni_Koi_wa_Muzukashii',
@@ -2564,7 +2564,7 @@ const animeList = [
    },
    {
       animeindex: 234,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/234.jpg',
       link: 'https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso',
@@ -2575,7 +2575,7 @@ const animeList = [
    },
    {
       animeindex: 235,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'up',
       img: './img/235.jpg',
       link: 'https://myanimelist.net/anime/30016/Nanbaka',
@@ -2586,7 +2586,7 @@ const animeList = [
    },
    {
       animeindex: 236,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/236.jpg',
       link: 'https://myanimelist.net/anime/42893/The_God_of_Highschool',
@@ -2597,7 +2597,7 @@ const animeList = [
    },
    {
       animeindex: 237,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/237.jpg',
       link: 'https://myanimelist.net/anime/28825/Himouto_Umaru-chan',
@@ -2608,7 +2608,7 @@ const animeList = [
    },
    {
       animeindex: 238,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/238.jpg',
       link: 'https://myanimelist.net/anime/41168/Nakitai_Watashi_wa_Neko_wo_Kaburu',
@@ -2619,7 +2619,7 @@ const animeList = [
    },
    {
       animeindex: 239,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'up',
       img: './img/239.jpg',
       link: 'https://myanimelist.net/anime/17265/Log_Horizon',
@@ -2630,7 +2630,7 @@ const animeList = [
    },
    {
       animeindex: 240,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/240.jpg',
       link: 'https://myanimelist.net/anime/10495/Yuru_Yuri',
@@ -2641,7 +2641,7 @@ const animeList = [
    },
    {
       animeindex: 241,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/241.jpg',
       link: 'https://myanimelist.net/anime/10161/No6',
@@ -2652,7 +2652,7 @@ const animeList = [
    },
    {
       animeindex: 242,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/242.jpg',
       link: 'https://myanimelist.net/anime/16706/Kami_nomi_zo_Shiru_Sekai__Megami-hen',
@@ -2663,7 +2663,7 @@ const animeList = [
    },
    {
       animeindex: 243,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/243.jpg',
       link: 'https://myanimelist.net/anime/15225/Hentai_Ouji_to_Warawanai_Neko',
@@ -2674,7 +2674,7 @@ const animeList = [
    },
    {
       animeindex: 244,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'up',
       img: './img/244.jpg',
       link: 'https://myanimelist.net/anime/16009/Kamisama_no_Inai_Nichiyoubi',
@@ -2685,7 +2685,7 @@ const animeList = [
    },
    {
       animeindex: 245,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'down',
       img: './img/245.jpg',
       link: 'https://myanimelist.net/anime/16067/Nagi_no_Asu_kara',
@@ -2696,7 +2696,7 @@ const animeList = [
    },
    {
       animeindex: 246,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/246.jpg',
       link: 'https://myanimelist.net/anime/32438/Mayoiga',
@@ -2707,7 +2707,7 @@ const animeList = [
    },
    {
       animeindex: 247,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/247.jpg',
       link: 'https://myanimelist.net/anime/31804/Kuma_Miko',
@@ -2718,7 +2718,7 @@ const animeList = [
    },
    {
       animeindex: 248,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/248.jpg',
       link: 'https://myanimelist.net/anime/33337/ACCA__13-ku_Kansatsu-ka',
@@ -2729,7 +2729,7 @@ const animeList = [
    },
    {
       animeindex: 249,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'down',
       img: './img/249.jpg',
       link: 'https://myanimelist.net/anime/35838/Shoujo_Shuumatsu_Ryokou',
@@ -2740,7 +2740,7 @@ const animeList = [
    },
    {
       animeindex: 250,
-      level: 'Epic',
+      level: 'B-',
       imgP: 'up',
       img: './img/250.jpg',
       link: 'https://myanimelist.net/anime/36220/Itsudatte_Bokura_no_Koi_wa_10_cm_Datta',
@@ -2751,7 +2751,7 @@ const animeList = [
    },
    {
       animeindex: 251,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/251.jpg',
       link: 'https://myanimelist.net/anime/36124/Itou_Junji__Collection',
@@ -2762,7 +2762,7 @@ const animeList = [
    },
    {
       animeindex: 252,
-      level: 'Epic',
+      level: 'B+',
       imgP: 'center',
       img: './img/252.jpg',
       link: 'https://myanimelist.net/anime/35889/Hakata_Tonkotsu_Ramens',
@@ -2773,7 +2773,7 @@ const animeList = [
    },
    {
       animeindex: 253,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/253.jpg',
       link: 'https://myanimelist.net/anime/37779/Yakusoku_no_Neverland',
@@ -2784,7 +2784,7 @@ const animeList = [
    },
    {
       animeindex: 254,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/254.jpg',
       link: 'https://myanimelist.net/anime/39534/Jibaku_Shounen_Hanako-kun',
@@ -2795,7 +2795,7 @@ const animeList = [
    },
    {
       animeindex: 255,
-      level: 'Epic',
+      level: 'B',
       imgP: 'up',
       img: './img/255.jpg',
       link: 'https://myanimelist.net/anime/39575/Somali_to_Mori_no_Kamisama',
@@ -2806,7 +2806,7 @@ const animeList = [
    },
    {
       animeindex: 256,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'center',
       img: './img/256.jpg',
       link: 'https://myanimelist.net/anime/48858/180_Byou_de_Kimi_no_Mimi_wo_Shiawase_ni_Dekiru_ka',
@@ -2817,7 +2817,7 @@ const animeList = [
    },
    {
       animeindex: 257,
-      level: 'Epic',
+      level: 'B',
       imgP: 'center',
       img: './img/257.jpg',
       link: 'https://myanimelist.net/anime/44516/Koroshi_Ai',
@@ -2828,7 +2828,7 @@ const animeList = [
    },
    {
       animeindex: 258,
-      level: 'Epic',
+      level: 'A-',
       imgP: 'up',
       img: './img/258.jpg',
       link: 'https://myanimelist.net/anime/35672/Yama_no_Susume_Third_Season',
@@ -2839,7 +2839,7 @@ const animeList = [
    },
    {
       animeindex: 259,
-      level: 'Legendary',
+      level: 'A',
       imgP: 'up',
       img: './img/259.jpg',
       link: 'https://myanimelist.net/anime/50549/Bubble',
@@ -2850,7 +2850,7 @@ const animeList = [
    },
    {
       animeindex: 260,
-      level: 'Legendary',
+      level: 'A+',
       imgP: 'center',
       img: './img/260.jpg',
       link: 'https://myanimelist.net/anime/9989/Ano_Hi_Mita_Hana_no_Namae_wo_Bokutachi_wa_Mada_Shiranai',
