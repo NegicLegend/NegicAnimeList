@@ -89,7 +89,7 @@ const animeList = [
    },
    {
       animeindex: 9,
-      level: 'A',
+      level: 'A+',
       imgP: 'center',
       img: './img/9.jpg',
       link: 'https://myanimelist.net/anime/12189/Hyouka',
@@ -144,7 +144,7 @@ const animeList = [
    },
    {
       animeindex: 14,
-      level: 'A+',
+      level: 'S-',
       imgP: 'up',
       img: './img/14.jpg',
       link: 'https://myanimelist.net/anime/16592/Danganronpa__Kibou_no_Gakuen_to_Zetsubou_no_Koukousei_The_Animation',
@@ -155,7 +155,7 @@ const animeList = [
    },
    {
       animeindex: 15,
-      level: 'B+',
+      level: 'A-',
       imgP: 'center',
       img: './img/15.jpg',
       link: 'https://myanimelist.net/anime/33948/Hinako_Note',
@@ -210,7 +210,7 @@ const animeList = [
    },
    {
       animeindex: 20,
-      level: 'B',
+      level: 'B-',
       imgP: 'up',
       img: './img/20.jpg',
       link: 'https://myanimelist.net/anime/36510/Ulysses__Jehanne_Darc_to_Renkin_no_Kishi',
@@ -232,7 +232,7 @@ const animeList = [
    },
    {
       animeindex: 22,
-      level: 'A-',
+      level: 'A',
       imgP: 'center',
       img: './img/22.jpg',
       link: 'https://myanimelist.net/anime/34420/Isekai_Izakaya__Koto_Aitheria_no_Izakaya_Nobu',
@@ -276,7 +276,7 @@ const animeList = [
    },
    {
       animeindex: 26,
-      level: 'B-',
+      level: 'B',
       imgP: 'center',
       img: './img/26.jpg',
       link: 'https://myanimelist.net/anime/35756/Comic_Girls',
@@ -353,7 +353,7 @@ const animeList = [
    },
    {
       animeindex: 33,
-      level: 'A+',
+      level: 'A',
       imgP: 'center',
       img: './img/33.jpg',
       link: 'https://myanimelist.net/anime/30831/Kono_Subarashii_Sekai_ni_Shukufuku_wo',
@@ -441,7 +441,7 @@ const animeList = [
    },
    {
       animeindex: 41,
-      level: 'A',
+      level: 'A+',
       imgP: 'up',
       img: './img/41.jpg',
       link: 'https://myanimelist.net/anime/31953/New_Game',
@@ -606,7 +606,7 @@ const animeList = [
    },
    {
       animeindex: 56,
-      level: 'S',
+      level: 'S-',
       imgP: 'center',
       img: './img/56.jpg',
       link: 'https://myanimelist.net/anime/16498/Shingeki_no_Kyojin',
@@ -683,7 +683,7 @@ const animeList = [
    },
    {
       animeindex: 63,
-      level: 'B+',
+      level: 'A-',
       imgP: 'up',
       img: './img/63.jpg',
       link: 'https://myanimelist.net/anime/39547/Yahari_Ore_no_Seishun_Love_Comedy_wa_Machigatteiru_Kan',
@@ -710,7 +710,7 @@ const animeList = [
       img: './img/65.jpg',
       link: 'https://myanimelist.net/anime/39292/Princess_Connect_Re_Dive',
       name: 'Princess Connect! Re:Dive',
-      tagS: 'Drama, Ecchi, Comedy, Action, Harem,Adventure, Romance, Fantasy',
+      tagS: 'Drama, Ecchi, Comedy, Action, Harem, Adventure, Romance, Fantasy',
       activeTag: ['Drama', 'Ecchi', 'Comedy', 'Action', 'Harem','Adventure', 'Romance', 'Fantasy'],
       active: true,
    },
@@ -1134,7 +1134,7 @@ const animeList = [
    },
    {
       animeindex: 104,
-      level: 'S',
+      level: 'S-',
       imgP: 'center',
       img: './img/104.jpg',
       link: 'https://myanimelist.net/anime/22319/Tokyo_Ghoul',
@@ -1156,7 +1156,7 @@ const animeList = [
    },
    {
       animeindex: 106,
-      level: 'B',
+      level: 'B+',
       imgP: 'up',
       img: './img/106.jpg',
       link: 'https://myanimelist.net/anime/34618/Blend_S',
@@ -1519,7 +1519,7 @@ const animeList = [
    },
    {
       animeindex: 139,
-      level: 'B+',
+      level: 'A-',
       imgP: 'center',
       img: './img/139.jpg',
       link: 'https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun',
@@ -1607,7 +1607,7 @@ const animeList = [
    },
    {
       animeindex: 147,
-      level: 'B-',
+      level: 'B',
       imgP: 'up',
       img: './img/147.jpg',
       link: 'https://myanimelist.net/anime/39017/Kyokou_Suiri',
@@ -1673,7 +1673,7 @@ const animeList = [
    },
    {
       animeindex: 153,
-      level: 'A-',
+      level: 'A',
       imgP: 'up',
       img: './img/153.jpg',
       link: 'https://myanimelist.net/anime/34012/Isekai_Shokudou',
@@ -1893,7 +1893,7 @@ const animeList = [
    },
    {
       animeindex: 173,
-      level: 'A-',
+      level: 'B+',
       imgP: 'up',
       img: './img/173.jpg',
       link: 'https://myanimelist.net/anime/42249/Tokyo_Revengers',
@@ -1915,7 +1915,7 @@ const animeList = [
    },
    {
       animeindex: 175,
-      level: 'A+',
+      level: 'S-',
       imgP: 'up',
       img: './img/175.jpg',
       link: 'https://myanimelist.net/anime/35484/Osake_wa_Fuufu_ni_Natte_kara',
@@ -2322,7 +2322,7 @@ const animeList = [
    },
    {
       animeindex: 212,
-      level: 'B+',
+      level: 'A',
       imgP: 'up',
       img: './img/212.jpg',
       link: 'https://myanimelist.net/anime/42351/Senpai_ga_Uzai_Kouhai_no_Hanashi',
@@ -2828,7 +2828,7 @@ const animeList = [
    },
    {
       animeindex: 258,
-      level: 'A-',
+      level: 'A',
       imgP: 'up',
       img: './img/258.jpg',
       link: 'https://myanimelist.net/anime/35672/Yama_no_Susume_Third_Season',
