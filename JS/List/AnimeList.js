@@ -177,7 +177,7 @@ const animeList = [
    },
    {
       animeindex: 17,
-      level: 'A',
+      level: 'A-',
       imgP: 'down',
       img: './img/17.jpg',
       link: 'https://myanimelist.net/anime/11757/Sword_Art_Online',
@@ -2619,7 +2619,7 @@ const animeList = [
    },
    {
       animeindex: 239,
-      level: 'A-',
+      level: 'A',
       imgP: 'up',
       img: './img/239.jpg',
       link: 'https://myanimelist.net/anime/17265/Log_Horizon',
