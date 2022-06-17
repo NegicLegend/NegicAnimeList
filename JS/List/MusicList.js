@@ -1039,6 +1039,10 @@ const musicList = [
       name: 'Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai',
       path: './music/260.mp3'
    },
+   {
+      name: 'Paripi Koumei',
+      path: './music/261.mp3'
+   },
 ];
 
 export default musicList;

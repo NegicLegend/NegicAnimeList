@@ -45,7 +45,7 @@ const animeList = [
    },
    {
       animeindex: 5,
-      level: 'S-',
+      level: 'A',
       imgP: 'center',
       img: './img/5.jpg',
       link: 'https://myanimelist.net/anime/6702/Fairy_Tail',
@@ -1024,7 +1024,7 @@ const animeList = [
    },
    {
       animeindex: 94,
-      level: 'A-',
+      level: 'B+',
       imgP: 'center',
       img: './img/94.jpg',
       link: 'https://myanimelist.net/anime/15583/Date_A_Live',
@@ -1101,7 +1101,7 @@ const animeList = [
    },
    {
       animeindex: 101,
-      level: 'A-',
+      level: 'B+',
       imgP: 'up',
       img: './img/101.jpg',
       link: 'https://myanimelist.net/anime/28677/Yamadakun_to_7nin_no_Majo_TV',
@@ -1123,7 +1123,7 @@ const animeList = [
    },
    {
       animeindex: 103,
-      level: 'A',
+      level: 'B+',
       imgP: 'up',
       img: './img/103.jpg',
       link: 'https://myanimelist.net/anime/19815/No_Game_No_Life',
@@ -1497,7 +1497,7 @@ const animeList = [
    },
    {
       animeindex: 137,
-      level: 'B-',
+      level: 'B',
       imgP: 'center',
       img: './img/137.jpg',
       link: 'https://myanimelist.net/anime/38924/Nekopara',
@@ -1673,7 +1673,7 @@ const animeList = [
    },
    {
       animeindex: 153,
-      level: 'A',
+      level: 'A-',
       imgP: 'up',
       img: './img/153.jpg',
       link: 'https://myanimelist.net/anime/34012/Isekai_Shokudou',
@@ -1761,13 +1761,13 @@ const animeList = [
    },
    {
       animeindex: 161,
-      level: 'B-',
-      imgP: 'up',
+      level: 'B',
+      imgP: 'center',
       img: './img/161.jpg',
-      link: 'https://myanimelist.net/anime/30749/Saijaku_Muhai_no_Bahamut',
-      name: 'Saijaku Muhai no Bahamut',
-      tagS: 'Ecchi, Comendy, Harem, School, Mecha, Fantasy, Supernatural, Romance',
-      activeTag: ['Ecchi', 'Comendy', 'Harem', 'School', 'Mecha', 'Fantasy', 'Supernatural', 'Romance'],
+      link: 'https://myanimelist.net/anime/49160/Shachiku-san_wa_Youjo_Yuurei_ni_Iyasaretai',
+      name: 'Shachiku san wa Youjo Yuurei ni Iyasaretai',
+      tagS: 'Slice of life, Supernatural',
+      activeTag: ['Slice of life', 'Supernatural'],
       active: true,
    },
    {
@@ -2080,7 +2080,7 @@ const animeList = [
    },
    {
       animeindex: 190,
-      level: 'A-',
+      level: 'B+',
       imgP: 'center',
       img: './img/190.jpg',
       link: 'https://myanimelist.net/anime/34498/Uchiage_Hanabi_Shita_kara_Miru_ka_Yoko_kara_Miru_ka',
@@ -2575,7 +2575,7 @@ const animeList = [
    },
    {
       animeindex: 235,
-      level: 'A+',
+      level: 'A',
       imgP: 'up',
       img: './img/235.jpg',
       link: 'https://myanimelist.net/anime/30016/Nanbaka',
@@ -2619,7 +2619,7 @@ const animeList = [
    },
    {
       animeindex: 239,
-      level: 'A',
+      level: 'A-',
       imgP: 'up',
       img: './img/239.jpg',
       link: 'https://myanimelist.net/anime/17265/Log_Horizon',
@@ -2857,6 +2857,17 @@ const animeList = [
       name: 'Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai',
       tagS: 'Slice of Life, Supernatural',
       activeTag: ['Slice of Life', 'Supernatural'],
+      active: true,
+   },
+   {
+      animeindex: 261,
+      level: 'S-',
+      imgP: 'down',
+      img: './img/261.jpg',
+      link: 'https://myanimelist.net/anime/50380/Paripi_Koumei',
+      name: 'Paripi Koumei',
+      tagS: 'Music, Comedy, Isekai',
+      activeTag: ['Music', 'Comedy', 'Isekai'],
       active: true,
    },
 ];
