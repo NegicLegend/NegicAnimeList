@@ -1043,6 +1043,34 @@ const musicList = [
       name: 'Paripi Koumei',
       path: './music/261.mp3'
    },
+   {
+      name: 'Spy x Family',
+      path: './music/262.mp3'
+   },
+   {
+      name: 'Summertime Render',
+      path: './music/263.mp3'
+   },
+   {
+      name: 'Deaimon',
+      path: './music/264.webm'
+   },
+   {
+      name: 'Tomodachi Game',
+      path: './music/265.mp3'
+   },
+   {
+      name: 'Mushishi',
+      path: './music/266.mp3'
+   },
+   {
+      name: 'Otome Game Sekai wa Mob ni Kibishii Sekai desu',
+      path: './music/267.mp3'
+   },
+   {
+      name: 'Aharen san wa Hakarenai',
+      path: './music/268.mp3'
+   },
 ];
 
 export default musicList;
