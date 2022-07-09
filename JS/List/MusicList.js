@@ -500,7 +500,7 @@ const musicList = [
       path: './music/125.mp3'
    },
    {
-      name: 'Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu',
+      name: 'Hataraku Maou sama',
       path: './music/126.mp3'
    },
    {
@@ -1070,6 +1070,10 @@ const musicList = [
    {
       name: 'Aharen san wa Hakarenai',
       path: './music/268.mp3'
+   },
+   {
+      name: 'Shadows House',
+      path: './music/269.mp3'
    },
 ];
 
