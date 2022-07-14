@@ -2958,6 +2958,17 @@ const animeList = [
       activeTag: ['Fantasy', 'Supernatural', 'Psychological'],
       active: true,
    },
+   {
+      animeindex: 270,
+      level: 'A+',
+      imgP: 'center',
+      img: './img/270.jpg',
+      link: 'https://myanimelist.net/anime/36028/Golden_Kamuy',
+      name: 'Golden Kamuy',
+      tagS: 'Action, Adventure, Historical, Military, Drama',
+      activeTag: ['Action', 'Adventure', 'Historical', 'Military', 'Drama'],
+      active: true,
+   },
 ];
 
 export default animeList;

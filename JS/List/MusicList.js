@@ -1075,6 +1075,10 @@ const musicList = [
       name: 'Shadows House',
       path: './music/269.mp3'
    },
+   {
+      name: 'Golden Kamuy',
+      path: './music/270.webm'
+   },
 ];
 
 export default musicList;
