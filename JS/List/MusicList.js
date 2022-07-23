@@ -1079,6 +1079,10 @@ const musicList = [
       name: 'Golden Kamuy',
       path: './music/270.webm'
    },
+   {
+      name: 'Hitoribocchi no Marumaru Seikatsu',
+      path: './music/271.webm'
+   },
 ];
 
 export default musicList;
