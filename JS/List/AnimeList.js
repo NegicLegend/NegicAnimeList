@@ -2619,7 +2619,7 @@ const animeList = [
    },
    {
       animeindex: 239,
-      level: 'A-',
+      level: 'B+',
       imgP: 'up',
       img: './img/239.jpg',
       link: 'https://myanimelist.net/anime/17265/Log_Horizon',
