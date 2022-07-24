@@ -1083,6 +1083,10 @@ const musicList = [
       name: 'Hitoribocchi no Marumaru Seikatsu',
       path: './music/271.webm'
    },
+   {
+      name: 'Rokka no Yuusha',
+      path: './music/272.mp3'
+   },
 ];
 
 export default musicList;

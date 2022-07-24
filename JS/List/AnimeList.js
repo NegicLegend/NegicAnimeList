@@ -2498,7 +2498,7 @@ const animeList = [
    },
    {
       animeindex: 228,
-      level: 'B',
+      level: 'B-',
       imgP: 'up',
       img: './img/228.jpg',
       link: 'https://myanimelist.net/anime/48997/Fantasy_Bishoujo_Juniku_Ojisan_to',
@@ -2978,6 +2978,17 @@ const animeList = [
       name: 'Hitoribocchi no Marumaru Seikatsu',
       tagS: 'School, Comedy, Slice of Life',
       activeTag: ['School', 'Comedy', 'Slice of Life'],
+      active: true,
+   },
+   {
+      animeindex: 272,
+      level: 'A',
+      imgP: 'up',
+      img: './img/272.jpg',
+      link: 'https://myanimelist.net/anime/28497/Rokka_no_Yuusha',
+      name: 'Rokka no Yuusha',
+      tagS: 'Fantasy, Action, Drama, Detective',
+      activeTag: ['Fantasy', 'Action', 'Drama', 'Detective'],
       active: true,
    },
 ];
