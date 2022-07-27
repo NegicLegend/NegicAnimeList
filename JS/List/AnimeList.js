@@ -2991,6 +2991,17 @@ const animeList = [
       activeTag: ['Fantasy', 'Action', 'Drama', 'Detective'],
       active: true,
    },
+   {
+      animeindex: 273,
+      level: 'A-',
+      imgP: 'up',
+      img: './img/273.jpg',
+      link: 'https://myanimelist.net/anime/1210/NHK_ni_Youkoso',
+      name: 'NHK ni Youkoso!',
+      tagS: 'Psychological, Comedy, Slice of Life, Romance',
+      activeTag: ['Psychological', 'Comedy', 'Slice of Life', 'Romance'],
+      active: true,
+   },
 ];
 
 export default animeList;

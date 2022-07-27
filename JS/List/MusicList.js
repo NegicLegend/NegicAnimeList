@@ -1087,6 +1087,10 @@ const musicList = [
       name: 'Rokka no Yuusha',
       path: './music/272.mp3'
    },
+   {
+      name: 'NHK ni Youkoso!',
+      path: './music/273.mp3'
+   },
 ];
 
 export default musicList;
