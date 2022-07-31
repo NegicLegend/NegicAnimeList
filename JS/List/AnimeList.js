@@ -2778,8 +2778,8 @@ const animeList = [
       img: './img/253.jpg',
       link: 'https://myanimelist.net/anime/37779/Yakusoku_no_Neverland',
       name: 'Yakusoku no Neverland',
-      tagS: 'Psychological, Adventure, Fantasy, Horror, Action',
-      activeTag: ['Psychological', 'Adventure', 'Fantasy', 'Horror', 'Action'],
+      tagS: 'Drama, Psychological, Adventure, Fantasy, Horror, Action',
+      activeTag: ['Drama' ,'Psychological', 'Adventure', 'Fantasy', 'Horror', 'Action'],
       active: true,
    },
    {
@@ -2954,8 +2954,8 @@ const animeList = [
       img: './img/269.jpg',
       link: 'https://myanimelist.net/anime/43439/Shadows_House',
       name: 'Shadows House',
-      tagS: 'Fantasy, Supernatural, Psychological',
-      activeTag: ['Fantasy', 'Supernatural', 'Psychological'],
+      tagS: 'Drama, Fantasy, Supernatural, Psychological',
+      activeTag: ['Drama', 'Fantasy', 'Supernatural', 'Psychological'],
       active: true,
    },
    {
