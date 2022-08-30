@@ -1091,6 +1091,18 @@ const musicList = [
       name: 'NHK ni Youkoso!',
       path: './music/273.mp3'
    },
+   {
+      name: 'Saiyuuki Reload Blast',
+      path: './music/274.mp3'
+   },
+   {
+      name: '3-gatsu no Lion',
+      path: './music/275.mp3'
+   },
+   {
+      name: 'Ousama Ranking',
+      path: './music/276.mp3'
+   },
 ];
 
 export default musicList;
