@@ -2146,7 +2146,7 @@ const animeList = [
    },
    {
       animeindex: 196,
-      level: 'B',
+      level: 'B+',
       imgP: 'up',
       img: './img/196.jpg',
       link: 'https://myanimelist.net/anime/10408/Hotarubi_no_Mori_e',
@@ -2586,7 +2586,7 @@ const animeList = [
    },
    {
       animeindex: 236,
-      level: 'B',
+      level: 'B+',
       imgP: 'up',
       img: './img/236.jpg',
       link: 'https://myanimelist.net/anime/42893/The_God_of_Highschool',
@@ -3033,6 +3033,17 @@ const animeList = [
       name: 'Ousama Ranking',
       tagS: 'Fantasy, Adventure, Action, Supernatural, Comedy',
       activeTag: ['Fantasy', 'Adventure', 'Action', 'Supernatural', 'Comedy'],
+      active: true,
+   },
+   {
+      animeindex: 277,
+      level: 'B-',
+      imgP: 'down',
+      img: './img/277.jpg',
+      link: 'https://myanimelist.net/anime/49665/Blue_Thermal',
+      name: 'Blue Thermal',
+      tagS: 'Drama, Otome',
+      activeTag: ['Drama', 'Otome'],
       active: true,
    },
 ];

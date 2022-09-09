@@ -1103,6 +1103,10 @@ const musicList = [
       name: 'Ousama Ranking',
       path: './music/276.mp3'
    },
+   {
+      name: 'Blue Thermal',
+      path: './music/277.mp3'
+   },
 ];
 
 export default musicList;
