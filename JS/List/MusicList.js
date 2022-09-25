@@ -1107,6 +1107,22 @@ const musicList = [
       name: 'Blue Thermal',
       path: './music/277.mp3'
    },
+   {
+      name: 'Yofukashi no Uta',
+      path: './music/278.mp3'
+   },
+   {
+      name: 'Soredemo Ayumu wa Yosetekuru',
+      path: './music/279.mp3'
+   },
+   {
+      name: 'Cyberpunk: Edgerunners',
+      path: './music/280.mp3'
+   },
+   {
+      name: 'Lycoris Recoil',
+      path: './music/281.mp3'
+   },
 ];
 
 export default musicList;
