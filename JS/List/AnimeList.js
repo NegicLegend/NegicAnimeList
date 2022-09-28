@@ -3059,7 +3059,7 @@ const animeList = [
    },
    {
       animeindex: 279,
-      level: 'B+',
+      level: 'B',
       imgP: 'up',
       img: './img/279.jpg',
       link: 'https://myanimelist.net/anime/45653/Soredemo_Ayumu_wa_Yosetekuru',
