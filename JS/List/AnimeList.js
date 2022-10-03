@@ -3081,7 +3081,7 @@ const animeList = [
    },
    {
       animeindex: 281,
-      level: 'A',
+      level: 'A-',
       imgP: 'center',
       img: './img/281.jpg',
       link: 'https://myanimelist.net/anime/50709/Lycoris_Recoil',
