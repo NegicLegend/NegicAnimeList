@@ -263,7 +263,7 @@ body {
     border-radius: 50%;
     background-color: #333;
     color: white;
-    z-index: 600;
+    z-index: 1000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
