@@ -3090,6 +3090,17 @@ const animeList = [
       activeTag: ['Action', 'Comedy'],
       active: true,
    },
+   {
+      animeindex: 282,
+      level: 'A-',
+      imgP: 'up',
+      img: './img/282.jpg',
+      link: 'https://myanimelist.net/anime/49938/Ame_wo_Tsugeru_Hyouryuu_Danchi',
+      name: 'Ame wo Tsugeru Hyouryuu Danchi',
+      tagS: 'Supernatural, Adventure, Drama',
+      activeTag: ['Supernatural', 'Adventure', 'Drama'],
+      active: true,
+   },
 ];
 
 export default animeList;

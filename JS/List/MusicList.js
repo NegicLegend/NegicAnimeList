@@ -1123,6 +1123,10 @@ const musicList = [
       name: 'Lycoris Recoil',
       path: './music/281.mp3'
    },
+   {
+      name: 'Ame wo Tsugeru Hyouryuu Danchi',
+      path: './music/282.mp3'
+   },
 ];
 
 export default musicList;
