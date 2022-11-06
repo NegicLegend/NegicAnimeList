@@ -1127,6 +1127,10 @@ const musicList = [
       name: 'Ame wo Tsugeru Hyouryuu Danchi',
       path: './music/282.mp3'
    },
+   {
+      name: 'Shika no Ou: Yuna to Yakusoku no Tabi',
+      path: './music/283.mp3'
+   },
 ];
 
 export default musicList;

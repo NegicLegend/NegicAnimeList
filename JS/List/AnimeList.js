@@ -3101,6 +3101,17 @@ const animeList = [
       activeTag: ['Supernatural', 'Adventure', 'Drama'],
       active: true,
    },
+   {
+      animeindex: 283,
+      level: 'B',
+      imgP: 'up',
+      img: './img/283.jpg',
+      link: 'https://myanimelist.net/anime/38015/Shika_no_Ou__Yuna_to_Yakusoku_no_Tabi',
+      name: 'Shika no Ou: Yuna to Yakusoku no Tabi',
+      tagS: 'Fantasy, Supernatural, Adventure, Action',
+      activeTag: ['Fantasy', 'Supernatural', 'Adventure', 'Action'],
+      active: true,
+   },
 ];
 
 export default animeList;
