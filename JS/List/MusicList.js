@@ -1131,6 +1131,10 @@ const musicList = [
       name: 'Shika no Ou: Yuna to Yakusoku no Tabi',
       path: './music/283.mp3'
    },
+   {
+      name: 'Bocchi the Rock!',
+      path: './music/284.mp3'
+   },
 ];
 
 export default musicList;

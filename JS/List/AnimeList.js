@@ -155,7 +155,7 @@ const animeList = [
    },
    {
       animeindex: 15,
-      level: 'A-',
+      level: 'A+',
       imgP: 'center',
       img: './img/15.jpg',
       link: 'https://myanimelist.net/anime/33948/Hinako_Note',
@@ -2047,7 +2047,7 @@ const animeList = [
    },
    {
       animeindex: 187,
-      level: 'S',
+      level: 'S-',
       imgP: 'center',
       img: './img/187.jpg',
       link: 'https://myanimelist.net/anime/40787/Josee_to_Tora_to_Sakana-tachi',
@@ -3110,6 +3110,17 @@ const animeList = [
       name: 'Shika no Ou: Yuna to Yakusoku no Tabi',
       tagS: 'Fantasy, Supernatural, Adventure, Action',
       activeTag: ['Fantasy', 'Supernatural', 'Adventure', 'Action'],
+      active: true,
+   },
+   {
+      animeindex: 284,
+      level: 'S',
+      imgP: 'up',
+      img: './img/284.jpg',
+      link: 'https://myanimelist.net/anime/47917/Bocchi_the_Rock',
+      name: 'Bocchi the Rock!',
+      tagS: 'Comedy, Music, Slice of Life, School',
+      activeTag: ['Comedy', 'Music', 'Slice of Life', 'School'],
       active: true,
    },
 ];
