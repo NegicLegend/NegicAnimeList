@@ -331,7 +331,7 @@ const animeList = [
    },
    {
       animeindex: 31,
-      level: 'A',
+      level: 'A+',
       imgP: 'down',
       img: './img/31.jpg',
       link: 'https://myanimelist.net/anime/32093/Tanakakun_wa_Itsumo_Kedaruge',
@@ -705,7 +705,7 @@ const animeList = [
    },
    {
       animeindex: 65,
-      level: 'B',
+      level: 'A-',
       imgP: 'center',
       img: './img/65.jpg',
       link: 'https://myanimelist.net/anime/39292/Princess_Connect_Re_Dive',
@@ -837,7 +837,7 @@ const animeList = [
    },
    {
       animeindex: 77,
-      level: 'B-',
+      level: 'B',
       imgP: 'up',
       img: './img/77.jpg',
       link: 'https://myanimelist.net/anime/33012/Island',
@@ -2553,7 +2553,7 @@ const animeList = [
    },
    {
       animeindex: 233,
-      level: 'B+',
+      level: 'A+',
       imgP: 'up',
       img: './img/233.jpg',
       link: 'https://myanimelist.net/anime/35968/Wotaku_ni_Koi_wa_Muzukashii',
@@ -2817,7 +2817,7 @@ const animeList = [
    },
    {
       animeindex: 257,
-      level: 'B',
+      level: 'B-',
       imgP: 'center',
       img: './img/257.jpg',
       link: 'https://myanimelist.net/anime/44516/Koroshi_Ai',
@@ -3123,6 +3123,18 @@ const animeList = [
       activeTag: ['Comedy', 'Music', 'Slice of Life', 'School'],
       active: true,
    },
+   {
+      animeindex: 285,
+      level: 'A+',
+      imgP: 'center',
+      img: './img/285.jpg',
+      link: 'https://myanimelist.net/anime/44511/Chainsaw_Man',
+      name: 'Chainsaw Man',
+      tagS: 'Action, Supernatural, Horror',
+      activeTag: ['Action', 'Supernatural', 'Horror'],
+      active: true,
+   },
+
 ];
 
 export default animeList;

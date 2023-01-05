@@ -1135,6 +1135,10 @@ const musicList = [
       name: 'Bocchi the Rock!',
       path: './music/284.mp3'
    },
+   {
+      name: 'Chainsaw Man',
+      path: './music/285.mp3'
+   }
 ];
 
 export default musicList;
