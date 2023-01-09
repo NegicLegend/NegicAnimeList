@@ -1138,7 +1138,15 @@ const musicList = [
    {
       name: 'Chainsaw Man',
       path: './music/285.mp3'
-   }
+   },
+   {
+      name: 'Arknights: Reimei Zensou',
+      path: './music/286.mp3'
+   },
+   {
+      name: 'Kidou Senshi Gundam: Suisei no Majo',
+      path: './music/287.mp3'
+   },
 ];
 
 export default musicList;
