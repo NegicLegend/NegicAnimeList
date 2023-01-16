@@ -1,3 +1,5 @@
+"use strict";
+
 const self = document.querySelector('.self');
 const icon = document.querySelector('.negic-icon');
 

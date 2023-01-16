@@ -1,3 +1,5 @@
+"use strict";
+
 import animeCount from './count.js';
 import music from './music.js';
 import error from './error.js'

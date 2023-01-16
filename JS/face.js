@@ -1,3 +1,5 @@
+"use strict";
+
 document.querySelector('body').addEventListener('mousemove', () => {
    const eyes = document.querySelectorAll('.eye');
    eyes.forEach(function(eye) {

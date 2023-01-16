@@ -1,3 +1,5 @@
+"use strict";
+
 const menu = document.querySelector('.tag-menu-wrap');
 const menuBtn = document.querySelector('.menu-header');
 const exit = document.querySelector('.exit-menu');

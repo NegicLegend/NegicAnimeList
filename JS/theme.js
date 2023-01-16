@@ -1,3 +1,5 @@
+"use strict";
+
 const themeBtn = document.querySelector('.toggle-theme');
 const theme = document.getElementById('theme');
 

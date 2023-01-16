@@ -1,3 +1,5 @@
+"use strict";
+
 import TagsList from './List/TagsList.js';
 import animeList from './List/AnimeList.js';
 import render from './render.js';

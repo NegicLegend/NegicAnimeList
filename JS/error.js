@@ -1,3 +1,5 @@
+"use strict";
+
 function error() {
    for(let i = 0; i < document.querySelectorAll('.anime-img').length; i++) {
       (function(i) {

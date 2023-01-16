@@ -1,3 +1,5 @@
+"use strict";
+
 import musicList from './List/MusicList.js';
 
 const audio = document.getElementById('audio');
