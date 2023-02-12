@@ -1607,7 +1607,7 @@ const animeList = [
    },
    {
       animeindex: 147,
-      level: 'B',
+      level: 'B+',
       imgP: 'up',
       img: './img/147.jpg',
       link: 'https://myanimelist.net/anime/39017/Kyokou_Suiri',
