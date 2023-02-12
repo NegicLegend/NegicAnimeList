@@ -397,7 +397,7 @@ const animeList = [
    },
    {
       animeindex: 37,
-      level: 'A+',
+      level: 'S-',
       imgP: 'up',
       img: './img/37.jpg',
       link: 'https://myanimelist.net/anime/31478/Bungou_Stray_Dogs',
@@ -634,7 +634,7 @@ const animeList = [
       link: 'https://myanimelist.net/anime/38000/Kimetsu_no_Yaiba',
       name: 'Kimetsu No Yaiba',
       tagS: 'Action, Fantasy, Supernatural, Historical',
-      activeTag: ['Action',  'Fantasy', 'Supernatural', 'Historical'],
+      activeTag: ['Action', 'Fantasy', 'Supernatural', 'Historical'],
       active: true,
    },
    {
@@ -711,7 +711,7 @@ const animeList = [
       link: 'https://myanimelist.net/anime/39292/Princess_Connect_Re_Dive',
       name: 'Princess Connect! Re:Dive',
       tagS: 'Drama, Ecchi, Comedy, Action, Harem, Adventure, Romance, Fantasy',
-      activeTag: ['Drama', 'Ecchi', 'Comedy', 'Action', 'Harem','Adventure', 'Romance', 'Fantasy'],
+      activeTag: ['Drama', 'Ecchi', 'Comedy', 'Action', 'Harem', 'Adventure', 'Romance', 'Fantasy'],
       active: true,
    },
    {
@@ -1519,7 +1519,7 @@ const animeList = [
    },
    {
       animeindex: 139,
-      level: 'A-',
+      level: 'S-',
       imgP: 'center',
       img: './img/139.jpg',
       link: 'https://myanimelist.net/anime/39196/Mairimashita_Iruma-kun',
@@ -1618,7 +1618,7 @@ const animeList = [
    },
    {
       animeindex: 148,
-      level: 'B',
+      level: 'A',
       imgP: 'up',
       img: './img/148.jpg',
       link: 'https://myanimelist.net/anime/31764/Nejimaki_Seirei_Senki__Tenkyou_no_Alderamin',
@@ -2674,7 +2674,7 @@ const animeList = [
    },
    {
       animeindex: 244,
-      level: 'B+',
+      level: 'A-',
       imgP: 'up',
       img: './img/244.jpg',
       link: 'https://myanimelist.net/anime/16009/Kamisama_no_Inai_Nichiyoubi',
@@ -2779,7 +2779,7 @@ const animeList = [
       link: 'https://myanimelist.net/anime/37779/Yakusoku_no_Neverland',
       name: 'Yakusoku no Neverland',
       tagS: 'Drama, Psychological, Adventure, Fantasy, Horror, Action',
-      activeTag: ['Drama' ,'Psychological', 'Adventure', 'Fantasy', 'Horror', 'Action'],
+      activeTag: ['Drama', 'Psychological', 'Adventure', 'Fantasy', 'Horror', 'Action'],
       active: true,
    },
    {
@@ -2872,7 +2872,7 @@ const animeList = [
    },
    {
       animeindex: 262,
-      level: 'A',
+      level: 'A-',
       imgP: 'up',
       img: './img/262.jpg',
       link: 'https://myanimelist.net/anime/50265/Spy_x_Family',
@@ -3150,13 +3150,11 @@ const animeList = [
       level: 'A',
       imgP: 'up',
       img: './img/287.jpg',
-      link: 'https://myanimelist.net/anime/49828/Kidou_Senshi_Gundam__Suisei_no_Majo',
-      name: 'Kidou Senshi Gundam: Suisei no Majo',
+      link: 'https://myanimelist.net/anime/49828/Kidou_Senshi_Gundam__Suisei_no_Majo', name: 'Kidou Senshi Gundam: Suisei no Majo',
       tagS: 'Gundam, Action, Science Fiction',
       activeTag: ['Gundam', 'Action', 'Science Fiction'],
       active: true,
    },
-
 ];
 
 export default animeList;
