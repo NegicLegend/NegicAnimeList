@@ -1147,6 +1147,10 @@ const musicList = [
       name: 'Kidou Senshi Gundam: Suisei no Majo',
       path: './music/287.mp3'
    },
+   {
+      name: 'Kage no Jitsuryokusha ni Naritakute!',
+      path: './music/288.mp3'
+   },
 ];
 
 export default musicList;

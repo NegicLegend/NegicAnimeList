@@ -3150,11 +3150,23 @@ const animeList = [
       level: 'A',
       imgP: 'up',
       img: './img/287.jpg',
-      link: 'https://myanimelist.net/anime/49828/Kidou_Senshi_Gundam__Suisei_no_Majo', name: 'Kidou Senshi Gundam: Suisei no Majo',
+      link: 'https://myanimelist.net/anime/49828/Kidou_Senshi_Gundam__Suisei_no_Majo',
+      name: 'Kidou Senshi Gundam: Suisei no Majo',
       tagS: 'Gundam, Action, Science Fiction',
       activeTag: ['Gundam', 'Action', 'Science Fiction'],
       active: true,
    },
+   {
+      animeindex: 288,
+      level: 'B+',
+      imgP: 'up',
+      img: './img/288.jpg',
+      link: 'https://myanimelist.net/anime/48316/Kage_no_Jitsuryokusha_ni_Naritakute',
+      name: 'Kage no Jitsuryokusha ni Naritakute!',
+      tagS: 'Fantasy, Comedy, Action, Isekai',
+      activeTag: ['Fantasy', 'Comedy', 'Action', 'Isekai'],
+      active: true,
+   }
 ];
 
 export default animeList;
