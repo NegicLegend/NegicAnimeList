@@ -1151,6 +1151,10 @@ const musicList = [
       name: 'Kage no Jitsuryokusha ni Naritakute!',
       path: './music/288.mp3'
    },
+   {
+      name: 'Usagi Drop',
+      path: './music/289.mp3'
+   },
 ];
 
 export default musicList;

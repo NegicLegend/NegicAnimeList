@@ -3166,6 +3166,17 @@ const animeList = [
       tagS: 'Fantasy, Comedy, Action, Isekai',
       activeTag: ['Fantasy', 'Comedy', 'Action', 'Isekai'],
       active: true,
+   },
+   {
+      animeindex: 289,
+      level: 'B+',
+      imgP: 'center',
+      img: './img/289.jpg',
+      link: 'https://myanimelist.net/anime/10162/Usagi_Drop/',
+      name: 'Usagi Drop',
+      tagS: 'Slice of Life',
+      activeTag: ['Slice of Life'],
+      active: true,
    }
 ];
 

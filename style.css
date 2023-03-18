@@ -531,6 +531,18 @@ body {
     display: inline-block;
 }
 
+@media (orientation: landscape) {
+    .anime-wrapper {
+        border-radius: 2vh;
+    }
+}
+
+@media (orientation: portrait) {
+    .anime-wrapper {
+        border-radius: 1vh;
+    }
+}
+
 .anime-wrapper::before {
     content: "";
     position: absolute;
