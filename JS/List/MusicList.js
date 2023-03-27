@@ -1155,6 +1155,26 @@ const musicList = [
       name: 'Usagi Drop',
       path: './music/289.mp3'
    },
+   {
+      name: 'Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken',
+      path: './music/290.mp3'
+   },
+   {
+      name: 'Koori Zokusei Danshi to Cool na Douryou Joshi',
+      path: './music/291.mp3'
+   },
+   {
+      name: 'Kimi wo Aishita Hitori no Boku e',
+      path: './music/292.mp3'
+   },
+   {
+      name: 'Neko no Ongaeshi',
+      path: './music/293.mp3'
+   },
+   {
+      name: 'Mimi wo Sumaseba',
+      path: './music/294.mp3'
+   },
 ];
 
 export default musicList;
