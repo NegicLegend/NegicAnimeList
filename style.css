@@ -425,10 +425,26 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    position: relative;
 }
 
 .menu-header {
     background-color: #3c6382;
+    z-index: 100;
+    -webkit-transition: left 0s, top 0.15s, opacity 0.2s, -webkit-transform 0s !important;
+    transition: left 0s, top 0.15s, opacity 0.2s, -webkit-transform 0s !important;
+    -o-transition: left 0s, transform 0s, top 0.15s, opacity 0.2s !important;
+    transition: left 0s, transform 0s, top 0.15s, opacity 0.2s !important;
+    transition: left 0s, transform 0s, top 0.15s, opacity 0.2s, -webkit-transform 0s !important;
+}
+
+.header.active .menu-header {
+    position: fixed;
+    top: 2vh;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 .toggle-volume {
@@ -674,6 +690,7 @@ body {
             align-items: center;
     background-color: rgba(0, 0, 0, 0.2);
     width: 100%;
+    z-index: 1000;
 }
 
 .anime-tag {
@@ -736,7 +753,7 @@ body {
 
     .menu-header:hover,
     .toggle:hover {
-        opacity: 0.8;
+        opacity: 0.8 !important;
     }
 
     .toggle-volume:hover::before {
