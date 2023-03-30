@@ -1,7 +1,7 @@
 const musicList = [
    {
       name: 'One Piece',
-      path: './music/1.webm'
+      path: './music/1.mp3'
    },
    {
       name: 'Naruto',
@@ -17,7 +17,7 @@ const musicList = [
    },
    {
       name: 'Fairy Tail',
-      path: './music/5.webm'
+      path: './music/5.mp3'
    },
    {
       name: 'Yu Gi Oh',
@@ -93,7 +93,7 @@ const musicList = [
    },
    {
       name: 'Toradora',
-      path: './music/24.webm'
+      path: './music/24.mp3'
    },
    {
       name: 'Black Jack',
@@ -105,7 +105,7 @@ const musicList = [
    },
    {
       name: 'Psycho Pass',
-      path: './music/27.webm'
+      path: './music/27.mp3'
    },
    {
       name: 'Kekkai Sensen',
@@ -117,7 +117,7 @@ const musicList = [
    },
    {
       name: 'Little Witch Academia',
-      path: './music/30.webm'
+      path: './music/30.mp3'
    },
    {
       name: 'Tanaka Kun Wa Itsumo Kedaruge',
@@ -225,7 +225,7 @@ const musicList = [
    },
    {
       name: 'Dr. Stone',
-      path: './music/57.webm'
+      path: './music/57.mp3'
    },
    {
       name: 'Kimetsu No Yaiba',
@@ -333,7 +333,7 @@ const musicList = [
    },
    {
       name: 'Grand Blue',
-      path: './music/84.webm'
+      path: './music/84.mp3'
    },
    {
       name: 'Violet Evergarden',
@@ -513,7 +513,7 @@ const musicList = [
    },
    {
       name: 'Mahouka Koukou no Rettousei',
-      path: './music/129.webm'
+      path: './music/129.mp3'
    },
    {
       name: 'Gate: Jieitai Kanochi nite, Kaku Tatakaeri',
@@ -557,7 +557,7 @@ const musicList = [
    },
    {
       name: 'Uchi no Ko no Tame naraba, Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai',
-      path: './music/140.webm'
+      path: './music/140.mp3'
    },
    {
       name: 'Uzaki-chan wa Asobitai!',
@@ -581,7 +581,7 @@ const musicList = [
    },
    {
       name: 'Jujutsu Kaisen',
-      path: './music/146.webm'
+      path: './music/146.mp3'
    },
    {
       name: 'Kyokou Suiri',
@@ -609,7 +609,7 @@ const musicList = [
    },
    {
       name: 'Isekai Shokudou',
-      path: './music/153.webm'
+      path: './music/153.mp3'
    },
    {
       name: 'Senryuu Shoujo',
@@ -1033,7 +1033,7 @@ const musicList = [
    },
    {
       name: 'Bubble',
-      path: './music/259.webm'
+      path: './music/259.mp3'
    },
    {
       name: 'Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai',
@@ -1053,7 +1053,7 @@ const musicList = [
    },
    {
       name: 'Deaimon',
-      path: './music/264.webm'
+      path: './music/264.mp3'
    },
    {
       name: 'Tomodachi Game',
@@ -1077,11 +1077,11 @@ const musicList = [
    },
    {
       name: 'Golden Kamuy',
-      path: './music/270.webm'
+      path: './music/270.mp3'
    },
    {
       name: 'Hitoribocchi no Marumaru Seikatsu',
-      path: './music/271.webm'
+      path: './music/271.mp3'
    },
    {
       name: 'Rokka no Yuusha',
@@ -1174,6 +1174,14 @@ const musicList = [
    {
       name: 'Mimi wo Sumaseba',
       path: './music/294.mp3'
+   },
+   {
+      name: 'Tensei Oujo to Tensai Reijou no Mahou Kakumei',
+      path: './music/295.mp3'
+   },
+   {
+      name: 'Tomo-chan wa Onnanoko!',
+      path: './music/296.mp3'
    },
 ];
 

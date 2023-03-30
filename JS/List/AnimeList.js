@@ -254,7 +254,7 @@ const animeList = [
    },
    {
       animeindex: 24,
-      level: 'A',
+      level: 'A+',
       imgP: 'center',
       img: './img/24.jpg',
       link: 'https://myanimelist.net/anime/4224/Toradora',
@@ -353,7 +353,7 @@ const animeList = [
    },
    {
       animeindex: 33,
-      level: 'A',
+      level: 'S-',
       imgP: 'center',
       img: './img/33.jpg',
       link: 'https://myanimelist.net/anime/30831/Kono_Subarashii_Sekai_ni_Shukufuku_wo',
@@ -391,8 +391,8 @@ const animeList = [
       img: './img/36.jpg',
       link: 'https://myanimelist.net/anime/2966/Ookami_to_Koushinryou',
       name: 'Ookami to Koushinryou',
-      tagS: 'Comedy, Adventure, Psychological, Romance, Historical, Fantasy, Action',
-      activeTag: ['Comedy', 'Adventure', 'Psychological', 'Romance', 'Historical', 'Fantasy', 'Action'],
+      tagS: 'Comedy, Adventure, Psychological, Romance, Historical, Supernatural, Action',
+      activeTag: ['Comedy', 'Adventure', 'Psychological', 'Romance', 'Historical', 'Supernatural', 'Action'],
       active: true,
    },
    {
@@ -452,7 +452,7 @@ const animeList = [
    },
    {
       animeindex: 42,
-      level: 'A',
+      level: 'A+',
       imgP: 'up',
       img: './img/42.jpg',
       link: 'https://myanimelist.net/anime/29803/Overlord',
@@ -573,7 +573,7 @@ const animeList = [
    },
    {
       animeindex: 53,
-      level: 'A',
+      level: 'A+',
       imgP: 'center',
       img: './img/53.jpg',
       link: 'https://myanimelist.net/anime/249/InuYasha',
@@ -705,7 +705,7 @@ const animeList = [
    },
    {
       animeindex: 65,
-      level: 'A-',
+      level: 'A',
       imgP: 'center',
       img: './img/65.jpg',
       link: 'https://myanimelist.net/anime/39292/Princess_Connect_Re_Dive',
@@ -716,7 +716,7 @@ const animeList = [
    },
    {
       animeindex: 66,
-      level: 'A-',
+      level: 'A',
       imgP: 'center',
       img: './img/66.jpg',
       link: 'https://myanimelist.net/anime/37349/Goblin_Slayer',
@@ -749,7 +749,7 @@ const animeList = [
    },
    {
       animeindex: 69,
-      level: 'A',
+      level: 'A+',
       imgP: 'up',
       img: './img/69.jpg',
       link: 'https://myanimelist.net/anime/22199/Akame_ga_Kill',
@@ -991,7 +991,7 @@ const animeList = [
    },
    {
       animeindex: 91,
-      level: 'A',
+      level: 'A+',
       imgP: 'center',
       img: './img/91.jpg',
       link: 'https://myanimelist.net/anime/23755/Nanatsu_no_Taizai',
@@ -1376,7 +1376,7 @@ const animeList = [
    },
    {
       animeindex: 126,
-      level: 'B+',
+      level: 'A',
       imgP: 'up',
       img: './img/126.jpg',
       link: 'https://myanimelist.net/anime/15809/Hataraku_Maou-sama',
@@ -1420,7 +1420,7 @@ const animeList = [
    },
    {
       animeindex: 130,
-      level: 'A',
+      level: 'A-',
       imgP: 'up',
       img: './img/130.jpg',
       link: 'https://myanimelist.net/anime/31637/Gate__Jieitai_Kanochi_nite_Kaku_Tatakaeri_Part_2',
@@ -3207,8 +3207,8 @@ const animeList = [
       img: './img/292.jpg',
       link: 'https://myanimelist.net/anime/49835/Kimi_wo_Aishita_Hitori_no_Boku_e',
       name: 'Kimi wo Aishita Hitori no Boku e',
-      tagS: 'Romance, Science Fiction, Supernatural',
-      activeTag: ['Romance', 'Science Fiction', 'Supernatural'],
+      tagS: 'Science Fiction, Romance, Supernatural',
+      activeTag: ['Science Fiction', 'Romance', 'Supernatural'],
       active: true,
    },
    {
@@ -3231,6 +3231,28 @@ const animeList = [
       name: 'Mimi wo Sumaseba',
       tagS: 'Slice of Life, Romance',
       activeTag: ['Slice of Life', 'Romance'],
+      active: true,
+   },
+   {
+      animeindex: 295,
+      level: 'B+',
+      imgP: 'up',
+      img: './img/295.jpg',
+      link: 'https://myanimelist.net/anime/52736/Tensei_Oujo_to_Tensai_Reijou_no_Mahou_Kakumei',
+      name: 'Tensei Oujo to Tensai Reijou no Mahou Kakumei',
+      tagS: 'Fantasy, Supernatural',
+      activeTag: ['Fantasy', 'Supernatural'],
+      active: true,
+   },
+   {
+      animeindex: 296,
+      level: 'B+',
+      imgP: 'up',
+      img: './img/296.jpg',
+      link: 'https://myanimelist.net/anime/52305/Tomo-chan_wa_Onnanoko',
+      name: 'Tomo-chan wa Onnanoko!',
+      tagS: 'Comedy, School, Romance',
+      activeTag: ['Comedy', 'School', 'Romance'],
       active: true,
    },
 ];
