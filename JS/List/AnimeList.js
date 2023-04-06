@@ -3255,6 +3255,17 @@ const animeList = [
       activeTag: ['Comedy', 'School', 'Romance'],
       active: true,
    },
+   {
+      animeindex: 297,
+      level: 'A',
+      imgP: 'center',
+      img: './img/297.jpg',
+      link: 'https://myanimelist.net/anime/339/Serial_Experiments_Lain',
+      name: 'Serial Experiments Lain',
+      tagS: 'Psychological, Science Fiction',
+      activeTag: ['Psychological', 'Science Fiction'],
+      active: true,
+   },
 ];
 
 export default animeList;

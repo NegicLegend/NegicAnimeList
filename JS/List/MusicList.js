@@ -1183,6 +1183,10 @@ const musicList = [
       name: 'Tomo-chan wa Onnanoko!',
       path: './music/296.mp3'
    },
+   {
+      name: 'Serial Experiments Lain',
+      path: './music/297.mp3'
+   },
 ];
 
 export default musicList;
