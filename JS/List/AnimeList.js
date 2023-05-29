@@ -3266,6 +3266,17 @@ const animeList = [
       activeTag: ['Psychological', 'Science Fiction'],
       active: true,
    },
+   {
+      animeindex: 298,
+      level: 'B',
+      imgP: 'up',
+      img: './img/298.jpg',
+      link: 'https://myanimelist.net/anime/51116/Kagami_no_Kojou',
+      name: 'Kagami no Kojou',
+      tagS: 'Supernatural, Drama',
+      activeTag: ['Supernatural', 'Drama'],
+      active: true,
+   },
 ];
 
 export default animeList;

@@ -1187,6 +1187,10 @@ const musicList = [
       name: 'Serial Experiments Lain',
       path: './music/297.mp3'
    },
+   {
+      name: 'Kagami no Kojou',
+      path: './music/298.mp3'
+   },
 ];
 
 export default musicList;
