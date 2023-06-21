@@ -1191,6 +1191,14 @@ const musicList = [
       name: 'Kagami no Kojou',
       path: './music/298.mp3'
    },
+   {
+      name: 'Skip to Loafer',
+      path: './music/299.mp3'
+   },
+   {
+      name: 'Kubo-san wa Mob wo Yurusanai',
+      path: './music/300.mp3'
+   },
 ];
 
 export default musicList;

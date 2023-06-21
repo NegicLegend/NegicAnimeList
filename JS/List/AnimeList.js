@@ -3277,6 +3277,28 @@ const animeList = [
       activeTag: ['Supernatural', 'Drama'],
       active: true,
    },
+   {
+      animeindex: 299,
+      level: 'B+',
+      imgP: 'up',
+      img: './img/299.jpg',
+      link: 'https://myanimelist.net/anime/50416/Skip_to_Loafer',
+      name: 'Skip to Loafer',
+      tagS: 'School, Slice of Life, Romance, Drama',
+      activeTag: ['School', 'Slice of Life', 'Romance', 'Drama'],
+      active: true,
+   },
+   {
+      animeindex: 300,
+      level: 'A+',
+      imgP: 'center',
+      img: './img/300.jpg',
+      link: 'https://myanimelist.net/anime/51815/Kubo-san_wa_Mob_wo_Yurusanai',
+      name: 'Kubo-san wa Mob wo Yurusanai',
+      tagS: 'School, Slice of Life, Romance',
+      activeTag: ['School', 'Slice of Life', 'Romance'],
+      active: true,
+   },
 ];
 
 export default animeList;
