@@ -1199,6 +1199,34 @@ const musicList = [
       name: 'Kubo-san wa Mob wo Yurusanai',
       path: './music/300.mp3'
    },
+   {
+      name: 'Yamada-kun to Lv999 no Koi wo Suru',
+      path: './music/301.mp3'
+   },
+   {
+      name: 'Tengoku Daimakyou',
+      path: './music/302.mp3'
+   },
+   {
+      name: 'Birdie Wing: Golf Girls\' Story',
+      path: './music/303.mp3'
+   },
+   {
+      name: 'Birdie Wing: Golf Girls\' Story',
+      path: './music/303.mp3'
+   },
+   {
+      name: 'Edomae Elf',
+      path: './music/304.mp3'
+   },
+   {
+      name: 'Dead Mount Death Play',
+      path: './music/305.mp3'
+   },
+   {
+      name: 'Kanojo ga Koushaku-tei ni Itta Riyuu',
+      path: './music/306.mp3'
+   },
 ];
 
 export default musicList;
