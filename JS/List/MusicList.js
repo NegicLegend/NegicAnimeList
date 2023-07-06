@@ -1227,6 +1227,26 @@ const musicList = [
       name: 'Kanojo ga Koushaku-tei ni Itta Riyuu',
       path: './music/306.mp3'
    },
+   {
+      name: 'Kimi wa Houkago Insomnia',
+      path: './music/307.mp3'
+   },
+   {
+      name: 'Suzume no Tojimari',
+      path: './music/308.mp3'
+   },
+   {
+      name: 'Jigokuraku',
+      path: './music/309.mp3'
+   },
+   {
+      name: 'Mashle',
+      path: './music/310.mp3'
+   },
+   {
+      name: 'Oshi no Ko',
+      path: './music/311.mp3'
+   },
 ];
 
 export default musicList;
