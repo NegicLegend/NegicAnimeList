@@ -2157,7 +2157,7 @@ const animeList = [
    },
    {
       animeindex: 197,
-      level: 'A+',
+      level: 'S',
       imgP: 'center',
       img: './img/197.jpg',
       link: 'https://myanimelist.net/anime/16782/Kotonoha_no_Niwa',
