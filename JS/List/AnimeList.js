@@ -870,7 +870,7 @@ const animeList = [
    },
    {
       animeindex: 80,
-      level: 'A',
+      level: 'A+',
       imgP: 'up',
       img: './img/80.jpg',
       link: 'https://myanimelist.net/anime/30015/ReLIFE',
@@ -1002,7 +1002,7 @@ const animeList = [
    },
    {
       animeindex: 92,
-      level: 'B',
+      level: 'A',
       imgP: 'up',
       img: './img/92.jpg',
       link: 'https://myanimelist.net/anime/33487/Masamunekun_no_Revenge',
