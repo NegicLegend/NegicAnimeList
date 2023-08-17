@@ -1596,7 +1596,7 @@ const animeList = [
    },
    {
       animeindex: 146,
-      level: 'S-',
+      level: 'S',
       imgP: 'center',
       img: './img/146.jpg',
       link: 'https://myanimelist.net/anime/40748/Jujutsu_Kaisen_TV',
@@ -3345,7 +3345,7 @@ const animeList = [
    },
    {
       animeindex: 305,
-      level: 'A',
+      level: 'A-',
       imgP: 'center',
       img: './img/305.jpg',
       link: 'https://myanimelist.net/anime/53613/Dead_Mount_Death_Play',

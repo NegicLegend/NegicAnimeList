@@ -1212,10 +1212,6 @@ const musicList = [
       path: './music/303.mp3'
    },
    {
-      name: 'Birdie Wing: Golf Girls\' Story',
-      path: './music/303.mp3'
-   },
-   {
       name: 'Edomae Elf',
       path: './music/304.mp3'
    },
