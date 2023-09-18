@@ -1937,7 +1937,7 @@ const animeList = [
    },
    {
       animeindex: 177,
-      level: 'A-',
+      level: 'A',
       imgP: 'up',
       img: './img/177.jpg',
       link: 'https://myanimelist.net/anime/44942/Shuumatsu_no_Walk%C3%BCre',
