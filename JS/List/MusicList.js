@@ -1243,6 +1243,46 @@ const musicList = [
       name: 'Oshi no Ko',
       path: './music/311.mp3'
    },
+   {
+      name: 'Lv1 Maou to One Room Yuusha',
+      path: './music/312.mp3'
+   },
+   {
+      name: 'Ao no Orchestra',
+      path: './music/313.mp3'
+   },
+   {
+      name: 'Dark Gathering',
+      path: './music/314.mp3'
+   },
+   {
+      name: 'Uchi no Kaisha no Chiisai Senpai no Hanashi',
+      path: './music/315.mp3'
+   },
+   {
+      name: 'Rurouni Kenshin: Meiji Kenkaku Romantan',
+      path: './music/316.mp3'
+   },
+   {
+      name: 'Nanatsu no Maken ga Shihai suru',
+      path: './music/317.mp3'
+   },
+   {
+      name: 'AI no Idenshi',
+      path: './music/318.mp3'
+   },
+   {
+      name: 'Undead Girl Murder Farce',
+      path: './music/319.mp3'
+   },
+   {
+      name: 'Zom 100: Zombie ni Naru made ni Shitai 100 no Koto',
+      path: './music/320.mp3'
+   },
+   {
+      name: 'Watashi no Shiawase na Kekkon',
+      path: './music/321.mp3'
+   },
 ];
 
 export default musicList;
