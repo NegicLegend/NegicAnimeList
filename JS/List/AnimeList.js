@@ -1651,7 +1651,7 @@ const animeList = [
    },
    {
       animeindex: 151,
-      level: 'B',
+      level: 'B+',
       imgP: 'up',
       img: './img/151.jpg',
       link: 'https://myanimelist.net/anime/39730/Houkago_Teibou_Nisshi',
@@ -2047,7 +2047,7 @@ const animeList = [
    },
    {
       animeindex: 187,
-      level: 'S-',
+      level: 'A',
       imgP: 'center',
       img: './img/187.jpg',
       link: 'https://myanimelist.net/anime/40787/Josee_to_Tora_to_Sakana-tachi',
@@ -2839,7 +2839,7 @@ const animeList = [
    },
    {
       animeindex: 259,
-      level: 'A',
+      level: 'A-',
       imgP: 'up',
       img: './img/259.jpg',
       link: 'https://myanimelist.net/anime/50549/Bubble',
@@ -2916,7 +2916,7 @@ const animeList = [
    },
    {
       animeindex: 266,
-      level: 'A+',
+      level: 'S-',
       imgP: 'center',
       img: './img/266.jpg',
       link: 'https://myanimelist.net/anime/457/Mushishi',
@@ -3136,7 +3136,7 @@ const animeList = [
    },
    {
       animeindex: 286,
-      level: 'A+',
+      level: 'A',
       imgP: 'center',
       img: './img/286.jpg',
       link: 'https://myanimelist.net/anime/50205/Arknights__Reimei_Zensou',
@@ -3158,7 +3158,7 @@ const animeList = [
    },
    {
       animeindex: 288,
-      level: 'B+',
+      level: 'A',
       imgP: 'up',
       img: './img/288.jpg',
       link: 'https://myanimelist.net/anime/48316/Kage_no_Jitsuryokusha_ni_Naritakute',
@@ -3224,7 +3224,7 @@ const animeList = [
    },
    {
       animeindex: 294,
-      level: 'A',
+      level: 'A-',
       imgP: 'up',
       img: './img/294.jpg',
       link: 'https://myanimelist.net/anime/585/Mimi_wo_Sumaseba',
@@ -3290,7 +3290,7 @@ const animeList = [
    },
    {
       animeindex: 300,
-      level: 'A+',
+      level: 'A',
       imgP: 'center',
       img: './img/300.jpg',
       link: 'https://myanimelist.net/anime/51815/Kubo-san_wa_Mob_wo_Yurusanai',
@@ -3301,7 +3301,7 @@ const animeList = [
    },
    {
       animeindex: 301,
-      level: 'A+',
+      level: 'A',
       imgP: 'up',
       img: './img/301.jpg',
       link: 'https://myanimelist.net/anime/53126/Yamada-kun_to_Lv999_no_Koi_wo_Suru',
@@ -3400,7 +3400,7 @@ const animeList = [
    },
    {
       animeindex: 310,
-      level: 'S',
+      level: 'A+',
       imgP: 'up',
       img: './img/310.jpg',
       link: 'https://myanimelist.net/anime/52211/Mashle',
@@ -3528,6 +3528,17 @@ const animeList = [
       name: 'Watashi no Shiawase na Kekkon',
       tagS: 'Romance, Otome, Supernatural, Drama, Historical',
       activeTag: ['Romance', 'Otome', 'Supernatural', 'Drama', 'Historical'],
+      active: true,
+   },
+   {
+      animeindex: 322,
+      level: 'B+',
+      imgP: 'center',
+      img: './img/322.jpg',
+      link: 'https://myanimelist.net/anime/51105/NieR_Automata_Ver11a',
+      name: 'NieR:Automata Ver1.1a',
+      tagS: 'Science Friction, Fantasy, Action, Adventure',
+      activeTag: ['Science Friction', 'Fantasy', 'Action', 'Adventure'],
       active: true,
    },
 ];

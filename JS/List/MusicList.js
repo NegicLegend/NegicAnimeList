@@ -1283,6 +1283,10 @@ const musicList = [
       name: 'Watashi no Shiawase na Kekkon',
       path: './music/321.mp3'
    },
+   {
+      name: 'NieR:Automata Ver1.1a',
+      path: './music/322.mp3'
+   },
 ];
 
 export default musicList;
