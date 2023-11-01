@@ -1287,6 +1287,14 @@ const musicList = [
       name: 'NieR:Automata Ver1.1a',
       path: './music/322.mp3'
    },
+   {
+      name: 'NieR:Automata Ver1.1a',
+      path: './music/322.mp3'
+   },
+   {
+      name: 'Berserk',
+      path: './music/323.mp3'
+   },
 ];
 
 export default musicList;

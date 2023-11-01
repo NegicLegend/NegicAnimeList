@@ -727,7 +727,7 @@ const animeList = [
    },
    {
       animeindex: 67,
-      level: 'B+',
+      level: 'B-',
       imgP: 'up',
       img: './img/67.jpg',
       link: 'https://myanimelist.net/anime/35790/Tate_no_Yuusha_no_Nariagari',
@@ -3539,6 +3539,17 @@ const animeList = [
       name: 'NieR:Automata Ver1.1a',
       tagS: 'Science Friction, Fantasy, Action, Adventure',
       activeTag: ['Science Friction', 'Fantasy', 'Action', 'Adventure'],
+      active: true,
+   },
+   {
+      animeindex: 323,
+      level: 'A+',
+      imgP: 'up',
+      img: './img/323.jpg',
+      link: 'https://myanimelist.net/anime/33/Kenpuu_Denki_Berserk/',
+      name: 'Berserk',
+      tagS: 'Action, Adventure, Military, Horror, Historical, Fantasy, Supernatural, Drama, Romance',
+      activeTag: ['Action', 'Adventure', 'Military', 'Horror', 'Historical', 'Fantasy', 'Supernatural', 'Drama', 'Romance'],
       active: true,
    },
 ];
