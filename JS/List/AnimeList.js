@@ -158,7 +158,7 @@ const animeList = [
       level: 'A+',
       imgP: 'center',
       img: './img/15.jpg',
-      link: 'https://myanimelist.net/anime/33948/Hinako_Note',
+      link: 'https://myanimelist.net/anime/37993/Watashi_ni_Tenshi_ga_Maiorita/',
       name: 'Watashi ni Tenshi ga Maiorita!',
       tagS: 'Slice of Life, Comendy, School',
       activeTag: ['Slice of Life', 'Comendy', 'School'],
