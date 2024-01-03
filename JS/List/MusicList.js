@@ -1288,12 +1288,20 @@ const musicList = [
       path: './music/322.mp3'
    },
    {
-      name: 'NieR:Automata Ver1.1a',
-      path: './music/322.mp3'
-   },
-   {
       name: 'Berserk',
       path: './music/323.mp3'
+   },
+   {
+      name: 'Konyaku Haki sareta Reijou wo Hirotta Ore ga, Ikenai Koto wo Oshiekomu',
+      path: './music/324.mp3'
+   },
+   {
+      name: 'Dekoboko Majo no Oyako Jijou',
+      path: './music/325.mp3'
+   },
+   {
+      name: 'Boku dake ga Inai Machi',
+      path: './music/326.mp3'
    },
 ];
 
