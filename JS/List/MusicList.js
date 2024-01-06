@@ -1303,6 +1303,10 @@ const musicList = [
       name: 'Boku dake ga Inai Machi',
       path: './music/326.mp3'
    },
+   {
+      name: 'Sousou no Frieren',
+      path: './music/327.mp3'
+   },
 ];
 
 export default musicList;
