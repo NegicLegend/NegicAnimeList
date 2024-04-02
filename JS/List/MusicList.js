@@ -1307,6 +1307,54 @@ const musicList = [
       name: 'Sousou no Frieren',
       path: './music/327.mp3'
    },
+   {
+      name: '91 Days',
+      path: './music/328.mp3'
+   },
+   {
+      name: 'Dungeon Meshi',
+      path: './music/329.mp3'
+   },
+   {
+      name: 'Majo to Yajuu',
+      path: './music/330.mp3'
+   },
+   {
+      name: 'Synduality: Noir',
+      path: './music/331.mp3'
+   },
+   {
+      name: 'Dosanko Gal wa Namara Menkoi',
+      path: './music/332.mp3'
+   },
+   {
+      name: 'Ninja Kamui',
+      path: './music/333.mp3'
+   },
+   {
+      name: 'Himesama "Goumon" no Jikan desu',
+      path: './music/334.mp3'
+   },
+   {
+      name: 'Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru',
+      path: './music/335.mp3'
+   },
+   {
+      name: 'Yubisaki to Renren',
+      path: './music/336.mp3'
+   },
+   {
+      name: 'Undead Unluck',
+      path: './music/337.mp3'
+   },
+   {
+      name: 'Mashle',
+      path: './music/338.mp3'
+   },
+   {
+      name: 'Solo Leveling',
+      path: './music/339.mp3'
+   },
 ];
 
 export default musicList;
