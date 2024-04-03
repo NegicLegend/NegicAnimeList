@@ -3708,7 +3708,7 @@ const animeList = [
    },
    {
       animeindex: 338,
-      level: 'A',
+      level: 'S-',
       imgP: 'top',
       img: './img/338.jpg',
       link: 'https://myanimelist.net/anime/52211/Mashle',
