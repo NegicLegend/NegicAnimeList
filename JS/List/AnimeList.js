@@ -1915,7 +1915,7 @@ const animeList = [
    },
    {
       animeindex: 175,
-      level: 'S-',
+      level: 'S',
       imgP: 'up',
       img: './img/175.jpg',
       link: 'https://myanimelist.net/anime/35484/Osake_wa_Fuufu_ni_Natte_kara',
@@ -3653,7 +3653,7 @@ const animeList = [
    },
    {
       animeindex: 333,
-      level: 'B',
+      level: 'B+',
       imgP: 'center',
       img: './img/333.jpg',
       link: 'https://myanimelist.net/anime/56285/Ninja_Kamui',
@@ -3726,6 +3726,17 @@ const animeList = [
       name: 'Solo Leveling',
       tagS: 'Action, Supernatural, Drama',
       activeTag: ['Action', 'Supernatural', 'Drama'],
+      active: true,
+   },
+   {
+      animeindex: 340,
+      level: 'A+',
+      imgP: 'center',
+      img: './img/340.jpg',
+      link: 'https://myanimelist.net/anime/22535/kiseijuu__sei_no_kakuritsu',
+      name: 'Kiseijuu: Sei no Kakuritsu',
+      tagS: 'Action, Supernatural, Horror, Psychological, Drama',
+      activeTag: ['Action', 'Supernatural', 'Horror', 'Psychological', 'Drama'],
       active: true,
    },
 ];

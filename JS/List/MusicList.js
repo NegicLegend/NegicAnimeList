@@ -1355,6 +1355,10 @@ const musicList = [
       name: 'Solo Leveling',
       path: './music/339.mp3'
    },
+   {
+      name: 'Kiseijuu: Sei no Kakuritsu',
+      path: './music/340.mp3'
+   },
 ];
 
 export default musicList;
