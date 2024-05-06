@@ -1359,6 +1359,14 @@ const musicList = [
       name: 'Kiseijuu: Sei no Kakuritsu',
       path: './music/340.mp3'
    },
+   {
+      name: 'Spriggan',
+      path: './music/341.mp3'
+   },
+   {
+      name: 'Ajin',
+      path: './music/342.mp3'
+   },
 ];
 
 export default musicList;
