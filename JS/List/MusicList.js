@@ -1367,6 +1367,10 @@ const musicList = [
       name: 'Ajin',
       path: './music/342.mp3'
    },
+   {
+      name: 'Akira',
+      path: './music/343.mp3'
+   },
 ];
 
 export default musicList;

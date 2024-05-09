@@ -3761,6 +3761,17 @@ const animeList = [
       activeTag: ['Action', 'Supernatural', 'Horror', 'Detective'],
       active: true,
    },
+   {
+      animeindex: 343,
+      level: 'A',
+      imgP: 'center',
+      img: './img/343.jpg',
+      link: 'https://myanimelist.net/anime/47/Akira?cat=anime',
+      name: 'Akira',
+      tagS: 'Action, Supernatural, Science Fiction, Drama',
+      activeTag: ['Action', 'Supernatural', 'Science Fiction', 'Drama'],
+      active: true,
+   },
 ];
 
 export default animeList;
