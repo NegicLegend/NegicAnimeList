@@ -1371,6 +1371,26 @@ const musicList = [
       name: 'Akira',
       path: './music/343.mp3'
    },
+   {
+      name: 'Kaijuu 8-gou',
+      path: './music/344.mp3'
+   },
+   {
+      name: 'Bartender: Kami no Glass',
+      path: './music/345.mp3'
+   },
+   {
+      name: 'Yoru no Kurage wa Oyogenai',
+      path: './music/346.mp3'
+   },
+   {
+      name: 'Jiisan Baasan Wakagaeru',
+      path: './music/347.mp3'
+   },
+   {
+      name: 'Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?',
+      path: './music/348.mp3'
+   },
 ];
 
 export default musicList;
