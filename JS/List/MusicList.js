@@ -1236,7 +1236,7 @@ const musicList = [
       path: './music/309.mp3'
    },
    {
-      name: 'Mashle',
+      name: 'Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?',
       path: './music/310.mp3'
    },
    {
@@ -1386,10 +1386,6 @@ const musicList = [
    {
       name: 'Jiisan Baasan Wakagaeru',
       path: './music/347.mp3'
-   },
-   {
-      name: 'Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?',
-      path: './music/348.mp3'
    },
 ];
 
