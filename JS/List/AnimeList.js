@@ -3399,10 +3399,10 @@ const animeList = [
       active: true,
    },
    {
-      animeindex: 348,
+      animeindex: 310,
       level: 'B+',
       imgP: 'center',
-      img: './img/348.jpg',
+      img: './img/310.jpg',
       link: 'https://myanimelist.net/anime/53434/Maou_no_Ore_ga_Dorei_Elf_wo_Yome_ni_Shitanda_ga_Dou_Medereba_Ii',
       name: 'Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?',
       tagS: 'Comedy, Romance, Fantasy, Supernatural',
