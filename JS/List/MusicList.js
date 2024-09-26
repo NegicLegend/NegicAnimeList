@@ -1387,6 +1387,26 @@ const musicList = [
       name: 'Jiisan Baasan Wakagaeru',
       path: './music/347.mp3'
    },
+   {
+      name: 'Katsute Mahou Shoujo to Aku wa Tekitai shiteita',
+      path: './music/348.mp3'
+   },
+   {
+      name: 'Dungeon no Naka no Hito',
+      path: './music/349.mp3'
+   },
+   {
+      name: 'VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta',
+      path: './music/350.mp3'
+   },
+   {
+      name: 'Giji Harem',
+      path: './music/351.mp3'
+   },
+   {
+      name: 'Shikanoko Nokonoko Koshitantan',
+      path: './music/352.mp3'
+   },
 ];
 
 export default musicList;
